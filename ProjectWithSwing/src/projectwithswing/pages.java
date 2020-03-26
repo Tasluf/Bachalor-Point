@@ -51,7 +51,7 @@ public class pages extends javax.swing.JFrame {
         this.setSize(800,500);
         this.setLocationRelativeTo(null);
         this.setResizable(false);
-        this.setTitle("Bachalor Point");
+        this.setTitle("Bachelor Point");
         
         this.UserPage.setVisible(true);
         this.MealPage.setVisible(false);
@@ -756,7 +756,7 @@ public class pages extends javax.swing.JFrame {
         MealPageEditButton.setBackground(new java.awt.Color(12, 15, 18));
         MealPageEditButton.setFont(new java.awt.Font("Calibri", 0, 16)); // NOI18N
         MealPageEditButton.setForeground(new java.awt.Color(255, 255, 255));
-        MealPageEditButton.setText("Delet");
+        MealPageEditButton.setText("Delete");
         MealPageEditButton.setActionCommand("");
         MealPageEditButton.setBorder(null);
         MealPageEditButton.setBorderPainted(false);
@@ -862,7 +862,7 @@ public class pages extends javax.swing.JFrame {
         BazarPageEditButton1.setBackground(new java.awt.Color(29, 50, 89));
         BazarPageEditButton1.setFont(new java.awt.Font("Calibri", 0, 16)); // NOI18N
         BazarPageEditButton1.setForeground(new java.awt.Color(255, 255, 255));
-        BazarPageEditButton1.setText("Delet");
+        BazarPageEditButton1.setText("Delete");
         BazarPageEditButton1.setActionCommand("");
         BazarPageEditButton1.setBorder(null);
         BazarPageEditButton1.setBorderPainted(false);
@@ -998,7 +998,7 @@ public class pages extends javax.swing.JFrame {
         BillPageEditButton2.setBackground(new java.awt.Color(25, 63, 97));
         BillPageEditButton2.setFont(new java.awt.Font("Calibri", 0, 16)); // NOI18N
         BillPageEditButton2.setForeground(new java.awt.Color(255, 255, 255));
-        BillPageEditButton2.setText("Delet");
+        BillPageEditButton2.setText("Delete");
         BillPageEditButton2.setActionCommand("");
         BillPageEditButton2.setBorder(null);
         BillPageEditButton2.setBorderPainted(false);
