@@ -2081,27 +2081,52 @@ public class pages extends javax.swing.JFrame {
         
             if(this.BazarPageNameComboBox1.getSelectedIndex() == 0)
             {
-                rhymeTotalBazar = rhymeTotalBazar + Integer.parseInt(this.BazarPageAmountField.getText());
+                try{
+                    rhymeTotalBazar = rhymeTotalBazar + Integer.parseInt(this.BazarPageAmountField.getText());
+                }catch(Exception e){
+                    System.out.println(e);
+                    JOptionPane.showMessageDialog(null,"You have enter wrong Amount. Please enter a number only");
+                }
+
                 this.BazarText.setText(Integer.toString(rhymeTotalBazar));
                 rhymeTotalSpend = rhymeTotalSpend +rhymeTotalBazar;
             }
             else if(this.BazarPageNameComboBox1.getSelectedIndex() == 1)
             {
-                tilokTotalBazar = tilokTotalBazar + Integer.parseInt(this.BazarPageAmountField.getText());
+                try{
+                    tilokTotalBazar = tilokTotalBazar + Integer.parseInt(this.BazarPageAmountField.getText());
+                }catch(Exception e){
+                    System.out.println(e);
+                    JOptionPane.showMessageDialog(null,"You have enter wrong Amount. Please enter a number only");
+                }
+                
+                
                 this.BazarText1.setText(Integer.toString(tilokTotalBazar));
                 tilokTotalSpend = tilokTotalSpend +tilokTotalBazar;
             }
             else if(this.BazarPageNameComboBox1.getSelectedIndex() == 2)
             {
+                try{
+                    ishtiaqTotalBazar = ishtiaqTotalBazar + Integer.parseInt(this.BazarPageAmountField.getText());
+                }catch(Exception e){
+                    System.out.println(e);
+                    JOptionPane.showMessageDialog(null,"You have enter wrong Amount. Please enter a number only");
+                }
                 
-                ishtiaqTotalBazar = ishtiaqTotalBazar + Integer.parseInt(this.BazarPageAmountField.getText());
+                
                 this.BazarText2.setText(Integer.toString(ishtiaqTotalBazar));
                 ishtiaqTotalSpend = ishtiaqTotalSpend + ishtiaqTotalBazar;
             }
             else if(this.BazarPageNameComboBox1.getSelectedIndex() == 3)
             {
+                try{
+                    mosarofTotalBazar = mosarofTotalBazar + Integer.parseInt(this.BazarPageAmountField.getText());
+                }catch(Exception e){
+                    System.out.println(e);
+                    JOptionPane.showMessageDialog(null,"You have enter wrong Amount. Please enter a number only");
+                }
                 
-                mosarofTotalBazar = mosarofTotalBazar + Integer.parseInt(this.BazarPageAmountField.getText());
+                
                 this.BazarText3.setText(Integer.toString(mosarofTotalBazar));
                 mosarofTotalSpend = mosarofTotalSpend + mosarofTotalBazar;
             }
@@ -2147,26 +2172,53 @@ public class pages extends javax.swing.JFrame {
         
             if(this.BillPageNameComboBox2.getSelectedIndex() == 0)
             {
-                rhymeTotalBill = rhymeTotalBill + Integer.parseInt(this.BillPageAmountField1.getText());
+                try{
+                    rhymeTotalBill = rhymeTotalBill + Integer.parseInt(this.BillPageAmountField1.getText());
+                }catch(Exception e){
+                    System.out.println(e);
+                    JOptionPane.showMessageDialog(null,"You have enter wrong Amount. Please enter a number only");
+                }
+                
                 this.BillText.setText(Integer.toString(rhymeTotalBill));
                 rhymeTotalSpend = rhymeTotalSpend +rhymeTotalBill;
             }
             else if(this.BillPageNameComboBox2.getSelectedIndex() == 1)
             {
-                tilokTotalBill = tilokTotalBill + Integer.parseInt(this.BillPageAmountField1.getText());
+                try{
+                    tilokTotalBill = tilokTotalBill + Integer.parseInt(this.BillPageAmountField1.getText());
+                }catch(Exception e){
+                    System.out.println(e);
+                    JOptionPane.showMessageDialog(null,"You have enter wrong Amount. Please enter a number only");
+                }
+                
+                
                 this.BillText1.setText(Integer.toString(tilokTotalBill));
                 tilokTotalSpend = tilokTotalSpend +tilokTotalBill;
             }
             else if(this.BillPageNameComboBox2.getSelectedIndex() == 2)
             {
-                ishtiaqTotalBill = ishtiaqTotalBill + Integer.parseInt(this.BillPageAmountField1.getText());
+                try{
+                    ishtiaqTotalBill = ishtiaqTotalBill + Integer.parseInt(this.BillPageAmountField1.getText());
+                }catch(Exception e){
+                    System.out.println(e);
+                    JOptionPane.showMessageDialog(null,"You have enter wrong Amount. Please enter a number only");
+                }
+                
+                
                 this.BillText2.setText(Integer.toString(ishtiaqTotalBill));
                 ishtiaqTotalSpend = ishtiaqTotalSpend + ishtiaqTotalBill;
                 
             }
             else if(this.BillPageNameComboBox2.getSelectedIndex() == 3)
             {
-                mosarofTotalBill = mosarofTotalBill + Integer.parseInt(this.BillPageAmountField1.getText());
+                try{
+                    mosarofTotalBill = mosarofTotalBill + Integer.parseInt(this.BillPageAmountField1.getText());
+                }catch(Exception e){
+                    System.out.println(e);
+                    JOptionPane.showMessageDialog(null,"You have enter wrong Amount. Please enter a number only");
+                }
+                
+                
                 this.BillText3.setText(Integer.toString(mosarofTotalBill));
                 mosarofTotalSpend = mosarofTotalSpend + mosarofTotalBill;
                 
