@@ -81,6 +81,79 @@ public class pages extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        MainLeftPanel = new javax.swing.JPanel();
+        MainLeftPanelUserIcon = new javax.swing.JLabel();
+        MainLeftPanelMealIcon = new javax.swing.JLabel();
+        MainLeftPanelBazarIcon = new javax.swing.JLabel();
+        MainLeftPanelBillIcon = new javax.swing.JLabel();
+        MainLeftPanelAmountIcon = new javax.swing.JLabel();
+        MainLeftPanelOptionIcon = new javax.swing.JLabel();
+        MainLeftPanelUserButton = new javax.swing.JButton();
+        MainLeftPanelMealButton = new javax.swing.JButton();
+        MainLeftPanelBazarButton = new javax.swing.JButton();
+        MainLeftPanelBillButton = new javax.swing.JButton();
+        MainLeftPanelAmountButton = new javax.swing.JButton();
+        MainLeftPanelOptionButton = new javax.swing.JButton();
+        UserPage = new javax.swing.JPanel();
+        UserPageUpPanel = new javax.swing.JPanel();
+        User = new javax.swing.JLabel();
+        User2 = new javax.swing.JLabel();
+        User3 = new javax.swing.JLabel();
+        User4 = new javax.swing.JLabel();
+        Ishtiaq = new javax.swing.JButton();
+        Tasluf = new javax.swing.JButton();
+        Tilok = new javax.swing.JButton();
+        Mosarof = new javax.swing.JButton();
+        UserPageRhymePanel = new javax.swing.JPanel();
+        Address = new javax.swing.JLabel();
+        Name = new javax.swing.JLabel();
+        Mobile = new javax.swing.JLabel();
+        Blood = new javax.swing.JLabel();
+        UserPageMosarofPanel = new javax.swing.JPanel();
+        Address3 = new javax.swing.JLabel();
+        Name3 = new javax.swing.JLabel();
+        Mobile3 = new javax.swing.JLabel();
+        Blood3 = new javax.swing.JLabel();
+        UserPageIshtiaqPanel = new javax.swing.JPanel();
+        Address2 = new javax.swing.JLabel();
+        Name2 = new javax.swing.JLabel();
+        Mobile2 = new javax.swing.JLabel();
+        Blood2 = new javax.swing.JLabel();
+        UserPageTilokPanel = new javax.swing.JPanel();
+        Address1 = new javax.swing.JLabel();
+        Name1 = new javax.swing.JLabel();
+        Mobile1 = new javax.swing.JLabel();
+        Blood1 = new javax.swing.JLabel();
+        BazarPage = new javax.swing.JPanel();
+        BazarPanelUpPanel1 = new javax.swing.JPanel();
+        BazarPageName1 = new javax.swing.JLabel();
+        BazarPageDate1 = new javax.swing.JLabel();
+        BazarPageDateField1 = new javax.swing.JTextField();
+        BazarPageNameComboBox1 = new javax.swing.JComboBox<>();
+        BazarPageEditButton1 = new javax.swing.JButton();
+        BazarPageSubmitButton1 = new javax.swing.JButton();
+        BazarPageAmount = new javax.swing.JLabel();
+        BazarPageAmountField = new javax.swing.JTextField();
+        BazarPageItem = new javax.swing.JLabel();
+        BazarPageItemField = new javax.swing.JTextField();
+        BazarDownPanel1 = new javax.swing.JPanel();
+        jScrollPane2 = new javax.swing.JScrollPane();
+        jTable2 = new javax.swing.JTable();
+        BillPage = new javax.swing.JPanel();
+        BillPanelUpPanel2 = new javax.swing.JPanel();
+        BillPageName2 = new javax.swing.JLabel();
+        BillPageDate2 = new javax.swing.JLabel();
+        BillPageDateField2 = new javax.swing.JTextField();
+        BillPageNameComboBox2 = new javax.swing.JComboBox<>();
+        BillPageEditButton2 = new javax.swing.JButton();
+        BillPageSubmitButton2 = new javax.swing.JButton();
+        BillPageAmount1 = new javax.swing.JLabel();
+        BillPageAmountField1 = new javax.swing.JTextField();
+        BillPageItem1 = new javax.swing.JLabel();
+        BillPageItemField1 = new javax.swing.JTextField();
+        BillDownPanel2 = new javax.swing.JPanel();
+        jScrollPane3 = new javax.swing.JScrollPane();
+        jTable3 = new javax.swing.JTable();
         AmountPage = new javax.swing.JPanel();
         AmountPageUpPanel1 = new javax.swing.JPanel();
         User1 = new javax.swing.JLabel();
@@ -91,6 +164,25 @@ public class pages extends javax.swing.JFrame {
         Tasluf1 = new javax.swing.JButton();
         Tilok1 = new javax.swing.JButton();
         Mosarof1 = new javax.swing.JButton();
+        AmountPageDownPanelRhyme = new javax.swing.JPanel();
+        MealText = new javax.swing.JLabel();
+        Liabilities = new javax.swing.JLabel();
+        TotalMeal = new javax.swing.JLabel();
+        TotalBazar = new javax.swing.JLabel();
+        TotalBazarText = new javax.swing.JLabel();
+        TotalBill = new javax.swing.JLabel();
+        TotalBillText = new javax.swing.JLabel();
+        Meal = new javax.swing.JLabel();
+        Spend = new javax.swing.JLabel();
+        TotalMealText = new javax.swing.JLabel();
+        LiabilitiesText = new javax.swing.JLabel();
+        SpendText = new javax.swing.JLabel();
+        Bazar = new javax.swing.JLabel();
+        BazarText = new javax.swing.JLabel();
+        BillText = new javax.swing.JLabel();
+        Bill = new javax.swing.JLabel();
+        Receivable = new javax.swing.JLabel();
+        ReceivableText = new javax.swing.JLabel();
         AmountPageDownPanelMosarof = new javax.swing.JPanel();
         MealText3 = new javax.swing.JLabel();
         Liabilities3 = new javax.swing.JLabel();
@@ -148,68 +240,6 @@ public class pages extends javax.swing.JFrame {
         Bill1 = new javax.swing.JLabel();
         Receivable1 = new javax.swing.JLabel();
         ReceivableText1 = new javax.swing.JLabel();
-        AmountPageDownPanelRhyme = new javax.swing.JPanel();
-        MealText = new javax.swing.JLabel();
-        Liabilities = new javax.swing.JLabel();
-        TotalMeal = new javax.swing.JLabel();
-        TotalBazar = new javax.swing.JLabel();
-        TotalBazarText = new javax.swing.JLabel();
-        TotalBill = new javax.swing.JLabel();
-        TotalBillText = new javax.swing.JLabel();
-        Meal = new javax.swing.JLabel();
-        Spend = new javax.swing.JLabel();
-        TotalMealText = new javax.swing.JLabel();
-        LiabilitiesText = new javax.swing.JLabel();
-        SpendText = new javax.swing.JLabel();
-        Bazar = new javax.swing.JLabel();
-        BazarText = new javax.swing.JLabel();
-        BillText = new javax.swing.JLabel();
-        Bill = new javax.swing.JLabel();
-        Receivable = new javax.swing.JLabel();
-        ReceivableText = new javax.swing.JLabel();
-        MainLeftPanel = new javax.swing.JPanel();
-        MainLeftPanelUserIcon = new javax.swing.JLabel();
-        MainLeftPanelMealIcon = new javax.swing.JLabel();
-        MainLeftPanelBazarIcon = new javax.swing.JLabel();
-        MainLeftPanelBillIcon = new javax.swing.JLabel();
-        MainLeftPanelAmountIcon = new javax.swing.JLabel();
-        MainLeftPanelOptionIcon = new javax.swing.JLabel();
-        MainLeftPanelUserButton = new javax.swing.JButton();
-        MainLeftPanelMealButton = new javax.swing.JButton();
-        MainLeftPanelBazarButton = new javax.swing.JButton();
-        MainLeftPanelBillButton = new javax.swing.JButton();
-        MainLeftPanelAmountButton = new javax.swing.JButton();
-        MainLeftPanelOptionButton = new javax.swing.JButton();
-        UserPage = new javax.swing.JPanel();
-        UserPageUpPanel = new javax.swing.JPanel();
-        User = new javax.swing.JLabel();
-        User2 = new javax.swing.JLabel();
-        User3 = new javax.swing.JLabel();
-        User4 = new javax.swing.JLabel();
-        Ishtiaq = new javax.swing.JButton();
-        Tasluf = new javax.swing.JButton();
-        Tilok = new javax.swing.JButton();
-        Mosarof = new javax.swing.JButton();
-        UserPageRhymePanel = new javax.swing.JPanel();
-        Address = new javax.swing.JLabel();
-        Name = new javax.swing.JLabel();
-        Mobile = new javax.swing.JLabel();
-        Blood = new javax.swing.JLabel();
-        UserPageTilokPanel = new javax.swing.JPanel();
-        Address1 = new javax.swing.JLabel();
-        Name1 = new javax.swing.JLabel();
-        Mobile1 = new javax.swing.JLabel();
-        Blood1 = new javax.swing.JLabel();
-        UserPageIshtiaqPanel = new javax.swing.JPanel();
-        Address2 = new javax.swing.JLabel();
-        Name2 = new javax.swing.JLabel();
-        Mobile2 = new javax.swing.JLabel();
-        Blood2 = new javax.swing.JLabel();
-        UserPageMosarofPanel = new javax.swing.JPanel();
-        Address3 = new javax.swing.JLabel();
-        Name3 = new javax.swing.JLabel();
-        Mobile3 = new javax.swing.JLabel();
-        Blood3 = new javax.swing.JLabel();
         MealPage = new javax.swing.JPanel();
         MealPanelUpPanel = new javax.swing.JPanel();
         MealPageName = new javax.swing.JLabel();
@@ -224,39 +254,676 @@ public class pages extends javax.swing.JFrame {
         MealPanelDownPanel = new javax.swing.JPanel();
         jScrollPane1 = new javax.swing.JScrollPane();
         jTable1 = new javax.swing.JTable();
-        BazarPage = new javax.swing.JPanel();
-        BazarPanelUpPanel1 = new javax.swing.JPanel();
-        BazarPageName1 = new javax.swing.JLabel();
-        BazarPageDate1 = new javax.swing.JLabel();
-        BazarPageDateField1 = new javax.swing.JTextField();
-        BazarPageNameComboBox1 = new javax.swing.JComboBox<>();
-        BazarPageEditButton1 = new javax.swing.JButton();
-        BazarPageSubmitButton1 = new javax.swing.JButton();
-        BazarPageAmount = new javax.swing.JLabel();
-        BazarPageAmountField = new javax.swing.JTextField();
-        BazarPageItem = new javax.swing.JLabel();
-        BazarPageItemField = new javax.swing.JTextField();
-        BazarDownPanel1 = new javax.swing.JPanel();
-        jScrollPane2 = new javax.swing.JScrollPane();
-        jTable2 = new javax.swing.JTable();
-        BillPage = new javax.swing.JPanel();
-        BillPanelUpPanel2 = new javax.swing.JPanel();
-        BillPageName2 = new javax.swing.JLabel();
-        BillPageDate2 = new javax.swing.JLabel();
-        BillPageDateField2 = new javax.swing.JTextField();
-        BillPageNameComboBox2 = new javax.swing.JComboBox<>();
-        BillPageEditButton2 = new javax.swing.JButton();
-        BillPageSubmitButton2 = new javax.swing.JButton();
-        BillPageAmount1 = new javax.swing.JLabel();
-        BillPageAmountField1 = new javax.swing.JTextField();
-        BillPageItem1 = new javax.swing.JLabel();
-        BillPageItemField1 = new javax.swing.JTextField();
-        BillDownPanel2 = new javax.swing.JPanel();
-        jScrollPane3 = new javax.swing.JScrollPane();
-        jTable3 = new javax.swing.JTable();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(null);
+
+        MainLeftPanel.setBackground(new java.awt.Color(43, 30, 72));
+        MainLeftPanel.setLayout(null);
+
+        MainLeftPanelUserIcon.setBackground(new java.awt.Color(255, 255, 255));
+        MainLeftPanelUserIcon.setIcon(IconScale("2703063-512.png"));
+        MainLeftPanel.add(MainLeftPanelUserIcon);
+        MainLeftPanelUserIcon.setBounds(40, 60, 27, 27);
+
+        MainLeftPanelMealIcon.setIcon(IconScale("meal.png"));
+        MainLeftPanel.add(MainLeftPanelMealIcon);
+        MainLeftPanelMealIcon.setBounds(40, 120, 27, 27);
+
+        MainLeftPanelBazarIcon.setIcon(IconScale("bazar.png"));
+        MainLeftPanel.add(MainLeftPanelBazarIcon);
+        MainLeftPanelBazarIcon.setBounds(40, 180, 27, 27);
+
+        MainLeftPanelBillIcon.setIcon(IconScale("bill.png"));
+        MainLeftPanel.add(MainLeftPanelBillIcon);
+        MainLeftPanelBillIcon.setBounds(40, 240, 27, 27);
+
+        MainLeftPanelAmountIcon.setIcon(IconScale("amount.png"));
+        MainLeftPanel.add(MainLeftPanelAmountIcon);
+        MainLeftPanelAmountIcon.setBounds(40, 300, 27, 27);
+
+        MainLeftPanelOptionIcon.setIcon(IconScale("option.png"));
+        MainLeftPanel.add(MainLeftPanelOptionIcon);
+        MainLeftPanelOptionIcon.setBounds(40, 360, 27, 27);
+
+        MainLeftPanelUserButton.setBackground(new java.awt.Color(43, 30, 72));
+        MainLeftPanelUserButton.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
+        MainLeftPanelUserButton.setForeground(new java.awt.Color(255, 255, 255));
+        MainLeftPanelUserButton.setText("User");
+        MainLeftPanelUserButton.setAlignmentY(1.0F);
+        MainLeftPanelUserButton.setBorder(null);
+        MainLeftPanelUserButton.setBorderPainted(false);
+        MainLeftPanelUserButton.setContentAreaFilled(false);
+        MainLeftPanelUserButton.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        MainLeftPanelUserButton.setFocusable(false);
+        MainLeftPanelUserButton.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        MainLeftPanelUserButton.setIconTextGap(0);
+        MainLeftPanelUserButton.setRequestFocusEnabled(false);
+        MainLeftPanelUserButton.setSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/img/Label.png"))); // NOI18N
+        MainLeftPanelUserButton.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
+        MainLeftPanelUserButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                MainLeftPanelUserButtonActionPerformed(evt);
+            }
+        });
+        MainLeftPanel.add(MainLeftPanelUserButton);
+        MainLeftPanelUserButton.setBounds(80, 60, 80, 30);
+
+        MainLeftPanelMealButton.setBackground(new java.awt.Color(43, 30, 72));
+        MainLeftPanelMealButton.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
+        MainLeftPanelMealButton.setForeground(new java.awt.Color(255, 255, 255));
+        MainLeftPanelMealButton.setText("Meal");
+        MainLeftPanelMealButton.setAlignmentY(1.0F);
+        MainLeftPanelMealButton.setBorder(null);
+        MainLeftPanelMealButton.setBorderPainted(false);
+        MainLeftPanelMealButton.setContentAreaFilled(false);
+        MainLeftPanelMealButton.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        MainLeftPanelMealButton.setFocusable(false);
+        MainLeftPanelMealButton.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        MainLeftPanelMealButton.setIconTextGap(0);
+        MainLeftPanelMealButton.setRequestFocusEnabled(false);
+        MainLeftPanelMealButton.setSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/img/Label.png"))); // NOI18N
+        MainLeftPanelMealButton.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
+        MainLeftPanelMealButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                MainLeftPanelMealButtonActionPerformed(evt);
+            }
+        });
+        MainLeftPanel.add(MainLeftPanelMealButton);
+        MainLeftPanelMealButton.setBounds(80, 120, 80, 30);
+
+        MainLeftPanelBazarButton.setBackground(new java.awt.Color(43, 30, 72));
+        MainLeftPanelBazarButton.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
+        MainLeftPanelBazarButton.setForeground(new java.awt.Color(255, 255, 255));
+        MainLeftPanelBazarButton.setText("Bazar");
+        MainLeftPanelBazarButton.setAlignmentY(1.0F);
+        MainLeftPanelBazarButton.setBorder(null);
+        MainLeftPanelBazarButton.setBorderPainted(false);
+        MainLeftPanelBazarButton.setContentAreaFilled(false);
+        MainLeftPanelBazarButton.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        MainLeftPanelBazarButton.setFocusable(false);
+        MainLeftPanelBazarButton.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        MainLeftPanelBazarButton.setIconTextGap(0);
+        MainLeftPanelBazarButton.setRequestFocusEnabled(false);
+        MainLeftPanelBazarButton.setSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/img/Label.png"))); // NOI18N
+        MainLeftPanelBazarButton.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
+        MainLeftPanelBazarButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                MainLeftPanelBazarButtonActionPerformed(evt);
+            }
+        });
+        MainLeftPanel.add(MainLeftPanelBazarButton);
+        MainLeftPanelBazarButton.setBounds(80, 180, 80, 30);
+
+        MainLeftPanelBillButton.setBackground(new java.awt.Color(43, 30, 72));
+        MainLeftPanelBillButton.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
+        MainLeftPanelBillButton.setForeground(new java.awt.Color(255, 255, 255));
+        MainLeftPanelBillButton.setText("Bill");
+        MainLeftPanelBillButton.setAlignmentY(1.0F);
+        MainLeftPanelBillButton.setBorder(null);
+        MainLeftPanelBillButton.setBorderPainted(false);
+        MainLeftPanelBillButton.setContentAreaFilled(false);
+        MainLeftPanelBillButton.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        MainLeftPanelBillButton.setFocusable(false);
+        MainLeftPanelBillButton.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        MainLeftPanelBillButton.setIconTextGap(0);
+        MainLeftPanelBillButton.setRequestFocusEnabled(false);
+        MainLeftPanelBillButton.setSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/img/Label.png"))); // NOI18N
+        MainLeftPanelBillButton.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
+        MainLeftPanelBillButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                MainLeftPanelBillButtonActionPerformed(evt);
+            }
+        });
+        MainLeftPanel.add(MainLeftPanelBillButton);
+        MainLeftPanelBillButton.setBounds(80, 240, 80, 30);
+
+        MainLeftPanelAmountButton.setBackground(new java.awt.Color(43, 30, 72));
+        MainLeftPanelAmountButton.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
+        MainLeftPanelAmountButton.setForeground(new java.awt.Color(255, 255, 255));
+        MainLeftPanelAmountButton.setText("Amount");
+        MainLeftPanelAmountButton.setAlignmentY(1.0F);
+        MainLeftPanelAmountButton.setBorder(null);
+        MainLeftPanelAmountButton.setBorderPainted(false);
+        MainLeftPanelAmountButton.setContentAreaFilled(false);
+        MainLeftPanelAmountButton.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        MainLeftPanelAmountButton.setFocusable(false);
+        MainLeftPanelAmountButton.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        MainLeftPanelAmountButton.setIconTextGap(0);
+        MainLeftPanelAmountButton.setRequestFocusEnabled(false);
+        MainLeftPanelAmountButton.setSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/img/Label.png"))); // NOI18N
+        MainLeftPanelAmountButton.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
+        MainLeftPanelAmountButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                MainLeftPanelAmountButtonActionPerformed(evt);
+            }
+        });
+        MainLeftPanel.add(MainLeftPanelAmountButton);
+        MainLeftPanelAmountButton.setBounds(80, 300, 80, 30);
+
+        MainLeftPanelOptionButton.setBackground(new java.awt.Color(43, 30, 72));
+        MainLeftPanelOptionButton.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
+        MainLeftPanelOptionButton.setForeground(new java.awt.Color(255, 255, 255));
+        MainLeftPanelOptionButton.setText("Reset");
+        MainLeftPanelOptionButton.setAlignmentY(1.0F);
+        MainLeftPanelOptionButton.setBorder(null);
+        MainLeftPanelOptionButton.setBorderPainted(false);
+        MainLeftPanelOptionButton.setContentAreaFilled(false);
+        MainLeftPanelOptionButton.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        MainLeftPanelOptionButton.setFocusable(false);
+        MainLeftPanelOptionButton.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        MainLeftPanelOptionButton.setIconTextGap(0);
+        MainLeftPanelOptionButton.setRequestFocusEnabled(false);
+        MainLeftPanelOptionButton.setSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/img/Label.png"))); // NOI18N
+        MainLeftPanelOptionButton.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
+        MainLeftPanelOptionButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                MainLeftPanelOptionButtonActionPerformed(evt);
+            }
+        });
+        MainLeftPanel.add(MainLeftPanelOptionButton);
+        MainLeftPanelOptionButton.setBounds(80, 360, 80, 30);
+
+        getContentPane().add(MainLeftPanel);
+        MainLeftPanel.setBounds(0, 0, 200, 500);
+
+        UserPage.setBackground(new java.awt.Color(204, 204, 204));
+        UserPage.setAlignmentX(0.0F);
+        UserPage.setFocusable(false);
+        UserPage.setLayout(null);
+
+        UserPageUpPanel.setBackground(new java.awt.Color(67, 47, 125));
+        UserPageUpPanel.setLayout(null);
+
+        User.setBackground(new java.awt.Color(255, 255, 255));
+        User.setIcon(IconScale("2703063-512.png"));
+        UserPageUpPanel.add(User);
+        User.setBounds(80, 20, 27, 27);
+
+        User2.setBackground(new java.awt.Color(255, 255, 255));
+        User2.setIcon(IconScale("2703063-512.png"));
+        UserPageUpPanel.add(User2);
+        User2.setBounds(80, 70, 27, 27);
+
+        User3.setBackground(new java.awt.Color(255, 255, 255));
+        User3.setIcon(IconScale("2703063-512.png"));
+        UserPageUpPanel.add(User3);
+        User3.setBounds(350, 20, 27, 27);
+
+        User4.setBackground(new java.awt.Color(255, 255, 255));
+        User4.setIcon(IconScale("2703063-512.png"));
+        UserPageUpPanel.add(User4);
+        User4.setBounds(350, 70, 27, 27);
+
+        Ishtiaq.setBackground(new java.awt.Color(43, 30, 72));
+        Ishtiaq.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
+        Ishtiaq.setForeground(new java.awt.Color(255, 255, 255));
+        Ishtiaq.setText("Sayed Mohammed Ishtiaq");
+        Ishtiaq.setAlignmentY(1.0F);
+        Ishtiaq.setBorder(null);
+        Ishtiaq.setBorderPainted(false);
+        Ishtiaq.setContentAreaFilled(false);
+        Ishtiaq.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        Ishtiaq.setFocusable(false);
+        Ishtiaq.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        Ishtiaq.setIconTextGap(0);
+        Ishtiaq.setRequestFocusEnabled(false);
+        Ishtiaq.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
+        Ishtiaq.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                IshtiaqActionPerformed(evt);
+            }
+        });
+        UserPageUpPanel.add(Ishtiaq);
+        Ishtiaq.setBounds(120, 70, 200, 30);
+
+        Tasluf.setBackground(new java.awt.Color(43, 30, 72));
+        Tasluf.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
+        Tasluf.setForeground(new java.awt.Color(255, 255, 255));
+        Tasluf.setText("Md. Tasluf Morshed");
+        Tasluf.setAlignmentY(1.0F);
+        Tasluf.setBorder(null);
+        Tasluf.setBorderPainted(false);
+        Tasluf.setContentAreaFilled(false);
+        Tasluf.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        Tasluf.setFocusable(false);
+        Tasluf.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        Tasluf.setIconTextGap(0);
+        Tasluf.setRequestFocusEnabled(false);
+        Tasluf.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
+        Tasluf.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                TaslufActionPerformed(evt);
+            }
+        });
+        UserPageUpPanel.add(Tasluf);
+        Tasluf.setBounds(120, 20, 160, 30);
+
+        Tilok.setBackground(new java.awt.Color(43, 30, 72));
+        Tilok.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
+        Tilok.setForeground(new java.awt.Color(255, 255, 255));
+        Tilok.setAlignmentY(1.0F);
+        Tilok.setBorder(null);
+        Tilok.setBorderPainted(false);
+        Tilok.setContentAreaFilled(false);
+        Tilok.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        Tilok.setFocusable(false);
+        Tilok.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        Tilok.setIconTextGap(0);
+        Tilok.setLabel("Assadujjman Tilok");
+        Tilok.setRequestFocusEnabled(false);
+        Tilok.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
+        Tilok.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                TilokActionPerformed(evt);
+            }
+        });
+        UserPageUpPanel.add(Tilok);
+        Tilok.setBounds(390, 20, 160, 30);
+
+        Mosarof.setBackground(new java.awt.Color(43, 30, 72));
+        Mosarof.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
+        Mosarof.setForeground(new java.awt.Color(255, 255, 255));
+        Mosarof.setText("Md. Mosarof Korim");
+        Mosarof.setAlignmentY(1.0F);
+        Mosarof.setBorder(null);
+        Mosarof.setBorderPainted(false);
+        Mosarof.setContentAreaFilled(false);
+        Mosarof.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        Mosarof.setFocusable(false);
+        Mosarof.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        Mosarof.setIconTextGap(0);
+        Mosarof.setRequestFocusEnabled(false);
+        Mosarof.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
+        Mosarof.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                MosarofActionPerformed(evt);
+            }
+        });
+        UserPageUpPanel.add(Mosarof);
+        Mosarof.setBounds(390, 70, 160, 30);
+
+        UserPage.add(UserPageUpPanel);
+        UserPageUpPanel.setBounds(0, 60, 600, 120);
+
+        UserPageRhymePanel.setBackground(new java.awt.Color(204, 204, 204));
+        UserPageRhymePanel.setLayout(null);
+
+        Address.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
+        Address.setText("Address: Mushiganj, Dhaka ");
+        UserPageRhymePanel.add(Address);
+        Address.setBounds(190, 180, 210, 20);
+
+        Name.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
+        Name.setText("Name: Md. Tasuf Morshed ");
+        UserPageRhymePanel.add(Name);
+        Name.setBounds(190, 90, 210, 20);
+
+        Mobile.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
+        Mobile.setText("Mobile: 01956140407 ");
+        UserPageRhymePanel.add(Mobile);
+        Mobile.setBounds(190, 120, 210, 20);
+
+        Blood.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
+        Blood.setText("Blood: B+ ");
+        UserPageRhymePanel.add(Blood);
+        Blood.setBounds(190, 150, 210, 20);
+
+        UserPage.add(UserPageRhymePanel);
+        UserPageRhymePanel.setBounds(0, 180, 600, 320);
+
+        UserPageMosarofPanel.setBackground(new java.awt.Color(204, 204, 204));
+        UserPageMosarofPanel.setLayout(null);
+
+        Address3.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
+        Address3.setText("Address: Mirpur, Dhaka ");
+        UserPageMosarofPanel.add(Address3);
+        Address3.setBounds(190, 180, 210, 20);
+
+        Name3.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
+        Name3.setText("Name: Md. Mosarof Korim");
+        UserPageMosarofPanel.add(Name3);
+        Name3.setBounds(190, 90, 210, 20);
+
+        Mobile3.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
+        Mobile3.setText("Mobile: 0198554231");
+        UserPageMosarofPanel.add(Mobile3);
+        Mobile3.setBounds(190, 120, 210, 20);
+
+        Blood3.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
+        Blood3.setText("Blood: B+ ");
+        UserPageMosarofPanel.add(Blood3);
+        Blood3.setBounds(190, 150, 210, 20);
+
+        UserPage.add(UserPageMosarofPanel);
+        UserPageMosarofPanel.setBounds(0, 180, 600, 320);
+
+        UserPageIshtiaqPanel.setBackground(new java.awt.Color(204, 204, 204));
+        UserPageIshtiaqPanel.setLayout(null);
+
+        Address2.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
+        Address2.setText("Address: Sankor, Dhaka ");
+        UserPageIshtiaqPanel.add(Address2);
+        Address2.setBounds(190, 180, 210, 20);
+
+        Name2.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
+        Name2.setText("Name: Sayed Mohammed Ishtiaq ");
+        UserPageIshtiaqPanel.add(Name2);
+        Name2.setBounds(190, 90, 260, 20);
+
+        Mobile2.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
+        Mobile2.setText("Mobile: 01945452133");
+        UserPageIshtiaqPanel.add(Mobile2);
+        Mobile2.setBounds(190, 120, 210, 20);
+
+        Blood2.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
+        Blood2.setText("Blood: A+ ");
+        UserPageIshtiaqPanel.add(Blood2);
+        Blood2.setBounds(190, 150, 210, 20);
+
+        UserPage.add(UserPageIshtiaqPanel);
+        UserPageIshtiaqPanel.setBounds(0, 180, 600, 320);
+
+        UserPageTilokPanel.setBackground(new java.awt.Color(204, 204, 204));
+        UserPageTilokPanel.setLayout(null);
+
+        Address1.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
+        Address1.setText("Address: Mushiganj, Dhaka ");
+        UserPageTilokPanel.add(Address1);
+        Address1.setBounds(190, 180, 210, 20);
+
+        Name1.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
+        Name1.setText("Name: Assadujjaman Tilok");
+        UserPageTilokPanel.add(Name1);
+        Name1.setBounds(190, 90, 210, 20);
+
+        Mobile1.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
+        Mobile1.setText("Mobile: 01956140407 ");
+        UserPageTilokPanel.add(Mobile1);
+        Mobile1.setBounds(190, 120, 210, 20);
+
+        Blood1.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
+        Blood1.setText("Blood: B+ ");
+        UserPageTilokPanel.add(Blood1);
+        Blood1.setBounds(190, 150, 210, 20);
+
+        UserPage.add(UserPageTilokPanel);
+        UserPageTilokPanel.setBounds(0, 180, 600, 320);
+
+        getContentPane().add(UserPage);
+        UserPage.setBounds(200, 0, 600, 500);
+
+        BazarPage.setBackground(new java.awt.Color(204, 204, 204));
+        BazarPage.setEnabled(false);
+        BazarPage.setLayout(null);
+
+        BazarPanelUpPanel1.setBackground(new java.awt.Color(29, 50, 89));
+        BazarPanelUpPanel1.setEnabled(false);
+        BazarPanelUpPanel1.setLayout(null);
+
+        BazarPageName1.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
+        BazarPageName1.setForeground(new java.awt.Color(255, 255, 255));
+        BazarPageName1.setText("Name");
+        BazarPanelUpPanel1.add(BazarPageName1);
+        BazarPageName1.setBounds(60, 30, 50, 20);
+
+        BazarPageDate1.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
+        BazarPageDate1.setForeground(new java.awt.Color(255, 255, 255));
+        BazarPageDate1.setText("Date");
+        BazarPanelUpPanel1.add(BazarPageDate1);
+        BazarPageDate1.setBounds(370, 30, 50, 20);
+
+        BazarPageDateField1.setFont(new java.awt.Font("Calibri", 0, 16)); // NOI18N
+        BazarPanelUpPanel1.add(BazarPageDateField1);
+        BazarPageDateField1.setBounds(420, 26, 130, 30);
+
+        BazarPageNameComboBox1.setEditable(true);
+        BazarPageNameComboBox1.setFont(new java.awt.Font("Calibri", 0, 14)); // NOI18N
+        BazarPageNameComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(name));
+        BazarPageNameComboBox1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        BazarPageNameComboBox1.setFocusable(false);
+        BazarPageNameComboBox1.setKeySelectionManager(null);
+        BazarPageNameComboBox1.setLightWeightPopupEnabled(false);
+        BazarPageNameComboBox1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                BazarPageNameComboBox1ActionPerformed(evt);
+            }
+        });
+        BazarPanelUpPanel1.add(BazarPageNameComboBox1);
+        BazarPageNameComboBox1.setBounds(120, 26, 190, 30);
+
+        BazarPageEditButton1.setBackground(new java.awt.Color(29, 50, 89));
+        BazarPageEditButton1.setFont(new java.awt.Font("Calibri", 0, 16)); // NOI18N
+        BazarPageEditButton1.setForeground(new java.awt.Color(255, 255, 255));
+        BazarPageEditButton1.setText("Delete");
+        BazarPageEditButton1.setActionCommand("");
+        BazarPageEditButton1.setBorder(null);
+        BazarPageEditButton1.setBorderPainted(false);
+        BazarPageEditButton1.setFocusPainted(false);
+        BazarPageEditButton1.setFocusTraversalPolicyProvider(true);
+        BazarPageEditButton1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        BazarPageEditButton1.setIconTextGap(0);
+        BazarPageEditButton1.setMargin(new java.awt.Insets(2, 2, 2, 2));
+        BazarPageEditButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                BazarPageEditButton1ActionPerformed(evt);
+            }
+        });
+        BazarPanelUpPanel1.add(BazarPageEditButton1);
+        BazarPageEditButton1.setBounds(320, 130, 100, 30);
+
+        BazarPageSubmitButton1.setBackground(new java.awt.Color(29, 50, 89));
+        BazarPageSubmitButton1.setFont(new java.awt.Font("Calibri", 0, 16)); // NOI18N
+        BazarPageSubmitButton1.setForeground(new java.awt.Color(255, 255, 255));
+        BazarPageSubmitButton1.setText("Sumit");
+        BazarPageSubmitButton1.setActionCommand("");
+        BazarPageSubmitButton1.setBorder(null);
+        BazarPageSubmitButton1.setBorderPainted(false);
+        BazarPageSubmitButton1.setFocusPainted(false);
+        BazarPageSubmitButton1.setFocusable(false);
+        BazarPageSubmitButton1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        BazarPageSubmitButton1.setIconTextGap(0);
+        BazarPageSubmitButton1.setMargin(new java.awt.Insets(2, 2, 2, 2));
+        BazarPageSubmitButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                BazarPageSubmitButton1ActionPerformed(evt);
+            }
+        });
+        BazarPanelUpPanel1.add(BazarPageSubmitButton1);
+        BazarPageSubmitButton1.setBounds(170, 130, 100, 30);
+
+        BazarPageAmount.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
+        BazarPageAmount.setForeground(new java.awt.Color(255, 255, 255));
+        BazarPageAmount.setText("Amount");
+        BazarPanelUpPanel1.add(BazarPageAmount);
+        BazarPageAmount.setBounds(350, 90, 60, 20);
+
+        BazarPageAmountField.setFont(new java.awt.Font("Calibri", 0, 16)); // NOI18N
+        BazarPageAmountField.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                BazarPageAmountFieldActionPerformed(evt);
+            }
+        });
+        BazarPanelUpPanel1.add(BazarPageAmountField);
+        BazarPageAmountField.setBounds(420, 80, 130, 30);
+
+        BazarPageItem.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
+        BazarPageItem.setForeground(new java.awt.Color(255, 255, 255));
+        BazarPageItem.setText("Item");
+        BazarPanelUpPanel1.add(BazarPageItem);
+        BazarPageItem.setBounds(60, 90, 60, 20);
+
+        BazarPageItemField.setFont(new java.awt.Font("Calibri", 0, 16)); // NOI18N
+        BazarPageItemField.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                BazarPageItemFieldActionPerformed(evt);
+            }
+        });
+        BazarPanelUpPanel1.add(BazarPageItemField);
+        BazarPageItemField.setBounds(120, 80, 190, 30);
+
+        BazarPage.add(BazarPanelUpPanel1);
+        BazarPanelUpPanel1.setBounds(200, 60, 600, 170);
+
+        BazarDownPanel1.setBackground(new java.awt.Color(204, 204, 204));
+        BazarDownPanel1.setLayout(null);
+
+        jTable2.setAutoCreateRowSorter(true);
+        jTable2.setFont(new java.awt.Font("Calibri", 0, 14)); // NOI18N
+        jTable2.setModel(modelforBazar);
+        jTable2.setFocusable(false);
+        jTable2.setIntercellSpacing(new java.awt.Dimension(0, 0));
+        jTable2.setOpaque(false);
+        jTable2.setRowHeight(25);
+        jTable2.setSelectionBackground(new java.awt.Color(232, 57, 95));
+        jTable2.setSelectionMode(javax.swing.ListSelectionModel.SINGLE_SELECTION);
+        jTable2.setShowGrid(false);
+        jScrollPane2.setViewportView(jTable2);
+
+        BazarDownPanel1.add(jScrollPane2);
+        jScrollPane2.setBounds(20, 60, 550, 160);
+
+        BazarPage.add(BazarDownPanel1);
+        BazarDownPanel1.setBounds(200, 210, 600, 290);
+
+        getContentPane().add(BazarPage);
+        BazarPage.setBounds(0, 0, 800, 500);
+
+        BillPage.setBackground(new java.awt.Color(204, 204, 204));
+        BillPage.setEnabled(false);
+        BillPage.setLayout(null);
+
+        BillPanelUpPanel2.setBackground(new java.awt.Color(25, 63, 97));
+        BillPanelUpPanel2.setEnabled(false);
+        BillPanelUpPanel2.setLayout(null);
+
+        BillPageName2.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
+        BillPageName2.setForeground(new java.awt.Color(255, 255, 255));
+        BillPageName2.setText("Name");
+        BillPanelUpPanel2.add(BillPageName2);
+        BillPageName2.setBounds(60, 30, 50, 20);
+
+        BillPageDate2.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
+        BillPageDate2.setForeground(new java.awt.Color(255, 255, 255));
+        BillPageDate2.setText("Date");
+        BillPanelUpPanel2.add(BillPageDate2);
+        BillPageDate2.setBounds(370, 30, 50, 20);
+
+        BillPageDateField2.setFont(new java.awt.Font("Calibri", 0, 16)); // NOI18N
+        BillPanelUpPanel2.add(BillPageDateField2);
+        BillPageDateField2.setBounds(420, 26, 130, 30);
+
+        BillPageNameComboBox2.setEditable(true);
+        BillPageNameComboBox2.setFont(new java.awt.Font("Calibri", 0, 14)); // NOI18N
+        BillPageNameComboBox2.setModel(new javax.swing.DefaultComboBoxModel<>(name));
+        BillPageNameComboBox2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        BillPageNameComboBox2.setFocusable(false);
+        BillPageNameComboBox2.setKeySelectionManager(null);
+        BillPageNameComboBox2.setLightWeightPopupEnabled(false);
+        BillPageNameComboBox2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                BillPageNameComboBox2ActionPerformed(evt);
+            }
+        });
+        BillPanelUpPanel2.add(BillPageNameComboBox2);
+        BillPageNameComboBox2.setBounds(120, 26, 190, 30);
+
+        BillPageEditButton2.setBackground(new java.awt.Color(25, 63, 97));
+        BillPageEditButton2.setFont(new java.awt.Font("Calibri", 0, 16)); // NOI18N
+        BillPageEditButton2.setForeground(new java.awt.Color(255, 255, 255));
+        BillPageEditButton2.setText("Delete");
+        BillPageEditButton2.setActionCommand("");
+        BillPageEditButton2.setBorder(null);
+        BillPageEditButton2.setBorderPainted(false);
+        BillPageEditButton2.setFocusPainted(false);
+        BillPageEditButton2.setFocusTraversalPolicyProvider(true);
+        BillPageEditButton2.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        BillPageEditButton2.setIconTextGap(0);
+        BillPageEditButton2.setMargin(new java.awt.Insets(2, 2, 2, 2));
+        BillPageEditButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                BillPageEditButton2ActionPerformed(evt);
+            }
+        });
+        BillPanelUpPanel2.add(BillPageEditButton2);
+        BillPageEditButton2.setBounds(320, 130, 100, 30);
+
+        BillPageSubmitButton2.setBackground(new java.awt.Color(25, 63, 97));
+        BillPageSubmitButton2.setFont(new java.awt.Font("Calibri", 0, 16)); // NOI18N
+        BillPageSubmitButton2.setForeground(new java.awt.Color(255, 255, 255));
+        BillPageSubmitButton2.setText("Sumit");
+        BillPageSubmitButton2.setActionCommand("");
+        BillPageSubmitButton2.setBorder(null);
+        BillPageSubmitButton2.setBorderPainted(false);
+        BillPageSubmitButton2.setFocusPainted(false);
+        BillPageSubmitButton2.setFocusable(false);
+        BillPageSubmitButton2.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        BillPageSubmitButton2.setIconTextGap(0);
+        BillPageSubmitButton2.setMargin(new java.awt.Insets(2, 2, 2, 2));
+        BillPageSubmitButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                BillPageSubmitButton2ActionPerformed(evt);
+            }
+        });
+        BillPanelUpPanel2.add(BillPageSubmitButton2);
+        BillPageSubmitButton2.setBounds(170, 130, 100, 30);
+
+        BillPageAmount1.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
+        BillPageAmount1.setForeground(new java.awt.Color(255, 255, 255));
+        BillPageAmount1.setText("Amount");
+        BillPanelUpPanel2.add(BillPageAmount1);
+        BillPageAmount1.setBounds(350, 90, 60, 20);
+
+        BillPageAmountField1.setFont(new java.awt.Font("Calibri", 0, 16)); // NOI18N
+        BillPageAmountField1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                BillPageAmountField1ActionPerformed(evt);
+            }
+        });
+        BillPanelUpPanel2.add(BillPageAmountField1);
+        BillPageAmountField1.setBounds(420, 80, 130, 30);
+
+        BillPageItem1.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
+        BillPageItem1.setForeground(new java.awt.Color(255, 255, 255));
+        BillPageItem1.setText("Bill");
+        BillPanelUpPanel2.add(BillPageItem1);
+        BillPageItem1.setBounds(60, 90, 60, 20);
+
+        BillPageItemField1.setFont(new java.awt.Font("Calibri", 0, 16)); // NOI18N
+        BillPageItemField1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                BillPageItemField1ActionPerformed(evt);
+            }
+        });
+        BillPanelUpPanel2.add(BillPageItemField1);
+        BillPageItemField1.setBounds(120, 80, 190, 30);
+
+        BillPage.add(BillPanelUpPanel2);
+        BillPanelUpPanel2.setBounds(200, 60, 600, 170);
+
+        BillDownPanel2.setBackground(new java.awt.Color(204, 204, 204));
+        BillDownPanel2.setLayout(null);
+
+        jTable3.setAutoCreateRowSorter(true);
+        jTable3.setFont(new java.awt.Font("Calibri", 0, 14)); // NOI18N
+        jTable3.setModel(modelforBill);
+        jTable3.setFocusable(false);
+        jTable3.setIntercellSpacing(new java.awt.Dimension(0, 0));
+        jTable3.setOpaque(false);
+        jTable3.setRowHeight(25);
+        jTable3.setSelectionBackground(new java.awt.Color(232, 57, 95));
+        jTable3.setSelectionMode(javax.swing.ListSelectionModel.SINGLE_SELECTION);
+        jTable3.setShowGrid(false);
+        jScrollPane3.setViewportView(jTable3);
+
+        BillDownPanel2.add(jScrollPane3);
+        jScrollPane3.setBounds(20, 60, 550, 160);
+
+        BillPage.add(BillDownPanel2);
+        BillDownPanel2.setBounds(200, 210, 600, 290);
+
+        getContentPane().add(BillPage);
+        BillPage.setBounds(0, 0, 800, 500);
 
         AmountPage.setBackground(new java.awt.Color(204, 204, 204));
         AmountPage.setEnabled(false);
@@ -375,6 +1042,156 @@ public class pages extends javax.swing.JFrame {
 
         AmountPage.add(AmountPageUpPanel1);
         AmountPageUpPanel1.setBounds(0, 60, 600, 120);
+
+        AmountPageDownPanelRhyme.setBackground(new java.awt.Color(204, 204, 204));
+        AmountPageDownPanelRhyme.setLayout(null);
+
+        MealText.setBackground(new java.awt.Color(255, 255, 255));
+        MealText.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
+        MealText.setText("0");
+        MealText.setToolTipText("");
+        MealText.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        MealText.setIconTextGap(0);
+        MealText.setOpaque(true);
+        MealText.setRequestFocusEnabled(false);
+        AmountPageDownPanelRhyme.add(MealText);
+        MealText.setBounds(150, 60, 100, 30);
+
+        Liabilities.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
+        Liabilities.setText("Liabilities");
+        AmountPageDownPanelRhyme.add(Liabilities);
+        Liabilities.setBounds(60, 150, 70, 20);
+
+        TotalMeal.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
+        TotalMeal.setText("Total Meal");
+        AmountPageDownPanelRhyme.add(TotalMeal);
+        TotalMeal.setBounds(30, 220, 80, 20);
+
+        TotalBazar.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
+        TotalBazar.setText("Total Bazar");
+        AmountPageDownPanelRhyme.add(TotalBazar);
+        TotalBazar.setBounds(220, 220, 90, 20);
+
+        TotalBazarText.setBackground(new java.awt.Color(255, 255, 255));
+        TotalBazarText.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
+        TotalBazarText.setText("0");
+        TotalBazarText.setToolTipText("");
+        TotalBazarText.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        TotalBazarText.setIconTextGap(0);
+        TotalBazarText.setOpaque(true);
+        TotalBazarText.setRequestFocusEnabled(false);
+        AmountPageDownPanelRhyme.add(TotalBazarText);
+        TotalBazarText.setBounds(310, 210, 70, 40);
+
+        TotalBill.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
+        TotalBill.setText("Total Bill");
+        AmountPageDownPanelRhyme.add(TotalBill);
+        TotalBill.setBounds(420, 220, 70, 20);
+
+        TotalBillText.setBackground(new java.awt.Color(255, 255, 255));
+        TotalBillText.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
+        TotalBillText.setText("0");
+        TotalBillText.setToolTipText("");
+        TotalBillText.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        TotalBillText.setIconTextGap(0);
+        TotalBillText.setOpaque(true);
+        TotalBillText.setRequestFocusEnabled(false);
+        AmountPageDownPanelRhyme.add(TotalBillText);
+        TotalBillText.setBounds(490, 210, 70, 40);
+
+        Meal.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
+        Meal.setText("Meal");
+        AmountPageDownPanelRhyme.add(Meal);
+        Meal.setBounds(60, 70, 40, 20);
+
+        Spend.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
+        Spend.setText("Spend");
+        AmountPageDownPanelRhyme.add(Spend);
+        Spend.setBounds(60, 110, 50, 20);
+
+        TotalMealText.setBackground(new java.awt.Color(255, 255, 255));
+        TotalMealText.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
+        TotalMealText.setText("0");
+        TotalMealText.setToolTipText("");
+        TotalMealText.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        TotalMealText.setIconTextGap(0);
+        TotalMealText.setOpaque(true);
+        TotalMealText.setRequestFocusEnabled(false);
+        AmountPageDownPanelRhyme.add(TotalMealText);
+        TotalMealText.setBounds(120, 210, 70, 40);
+
+        LiabilitiesText.setBackground(new java.awt.Color(255, 255, 255));
+        LiabilitiesText.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
+        LiabilitiesText.setText("0");
+        LiabilitiesText.setToolTipText("");
+        LiabilitiesText.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        LiabilitiesText.setIconTextGap(0);
+        LiabilitiesText.setOpaque(true);
+        LiabilitiesText.setRequestFocusEnabled(false);
+        AmountPageDownPanelRhyme.add(LiabilitiesText);
+        LiabilitiesText.setBounds(150, 140, 100, 30);
+
+        SpendText.setBackground(new java.awt.Color(255, 255, 255));
+        SpendText.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
+        SpendText.setText("0");
+        SpendText.setToolTipText("");
+        SpendText.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        SpendText.setIconTextGap(0);
+        SpendText.setOpaque(true);
+        SpendText.setRequestFocusEnabled(false);
+        AmountPageDownPanelRhyme.add(SpendText);
+        SpendText.setBounds(150, 100, 100, 30);
+
+        Bazar.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
+        Bazar.setText("Bazar");
+        AmountPageDownPanelRhyme.add(Bazar);
+        Bazar.setBounds(340, 70, 50, 20);
+
+        BazarText.setBackground(new java.awt.Color(255, 255, 255));
+        BazarText.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
+        BazarText.setText("0");
+        BazarText.setToolTipText("");
+        BazarText.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        BazarText.setIconTextGap(0);
+        BazarText.setOpaque(true);
+        BazarText.setRequestFocusEnabled(false);
+        AmountPageDownPanelRhyme.add(BazarText);
+        BazarText.setBounds(440, 60, 100, 30);
+
+        BillText.setBackground(new java.awt.Color(255, 255, 255));
+        BillText.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
+        BillText.setText("0");
+        BillText.setToolTipText("");
+        BillText.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        BillText.setIconTextGap(0);
+        BillText.setOpaque(true);
+        BillText.setRequestFocusEnabled(false);
+        AmountPageDownPanelRhyme.add(BillText);
+        BillText.setBounds(440, 100, 100, 30);
+
+        Bill.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
+        Bill.setText("Bill");
+        AmountPageDownPanelRhyme.add(Bill);
+        Bill.setBounds(340, 110, 50, 20);
+
+        Receivable.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
+        Receivable.setText("Receivable");
+        AmountPageDownPanelRhyme.add(Receivable);
+        Receivable.setBounds(340, 150, 90, 20);
+
+        ReceivableText.setBackground(new java.awt.Color(255, 255, 255));
+        ReceivableText.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
+        ReceivableText.setText("0");
+        ReceivableText.setToolTipText("");
+        ReceivableText.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        ReceivableText.setIconTextGap(0);
+        ReceivableText.setOpaque(true);
+        ReceivableText.setRequestFocusEnabled(false);
+        AmountPageDownPanelRhyme.add(ReceivableText);
+        ReceivableText.setBounds(440, 140, 100, 30);
+
+        AmountPage.add(AmountPageDownPanelRhyme);
+        AmountPageDownPanelRhyme.setBounds(0, 180, 600, 320);
 
         AmountPageDownPanelMosarof.setBackground(new java.awt.Color(204, 204, 204));
         AmountPageDownPanelMosarof.setLayout(null);
@@ -826,553 +1643,8 @@ public class pages extends javax.swing.JFrame {
         AmountPage.add(AmountPageDownPanelTilok);
         AmountPageDownPanelTilok.setBounds(0, 180, 600, 320);
 
-        AmountPageDownPanelRhyme.setBackground(new java.awt.Color(204, 204, 204));
-        AmountPageDownPanelRhyme.setLayout(null);
-
-        MealText.setBackground(new java.awt.Color(255, 255, 255));
-        MealText.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
-        MealText.setText("0");
-        MealText.setToolTipText("");
-        MealText.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        MealText.setIconTextGap(0);
-        MealText.setOpaque(true);
-        MealText.setRequestFocusEnabled(false);
-        AmountPageDownPanelRhyme.add(MealText);
-        MealText.setBounds(150, 60, 100, 30);
-
-        Liabilities.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
-        Liabilities.setText("Liabilities");
-        AmountPageDownPanelRhyme.add(Liabilities);
-        Liabilities.setBounds(60, 150, 70, 20);
-
-        TotalMeal.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
-        TotalMeal.setText("Total Meal");
-        AmountPageDownPanelRhyme.add(TotalMeal);
-        TotalMeal.setBounds(30, 220, 80, 20);
-
-        TotalBazar.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
-        TotalBazar.setText("Total Bazar");
-        AmountPageDownPanelRhyme.add(TotalBazar);
-        TotalBazar.setBounds(220, 220, 90, 20);
-
-        TotalBazarText.setBackground(new java.awt.Color(255, 255, 255));
-        TotalBazarText.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
-        TotalBazarText.setText("0");
-        TotalBazarText.setToolTipText("");
-        TotalBazarText.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        TotalBazarText.setIconTextGap(0);
-        TotalBazarText.setOpaque(true);
-        TotalBazarText.setRequestFocusEnabled(false);
-        AmountPageDownPanelRhyme.add(TotalBazarText);
-        TotalBazarText.setBounds(310, 210, 70, 40);
-
-        TotalBill.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
-        TotalBill.setText("Total Bill");
-        AmountPageDownPanelRhyme.add(TotalBill);
-        TotalBill.setBounds(420, 220, 70, 20);
-
-        TotalBillText.setBackground(new java.awt.Color(255, 255, 255));
-        TotalBillText.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
-        TotalBillText.setText("0");
-        TotalBillText.setToolTipText("");
-        TotalBillText.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        TotalBillText.setIconTextGap(0);
-        TotalBillText.setOpaque(true);
-        TotalBillText.setRequestFocusEnabled(false);
-        AmountPageDownPanelRhyme.add(TotalBillText);
-        TotalBillText.setBounds(490, 210, 70, 40);
-
-        Meal.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
-        Meal.setText("Meal");
-        AmountPageDownPanelRhyme.add(Meal);
-        Meal.setBounds(60, 70, 40, 20);
-
-        Spend.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
-        Spend.setText("Spend");
-        AmountPageDownPanelRhyme.add(Spend);
-        Spend.setBounds(60, 110, 50, 20);
-
-        TotalMealText.setBackground(new java.awt.Color(255, 255, 255));
-        TotalMealText.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
-        TotalMealText.setText("0");
-        TotalMealText.setToolTipText("");
-        TotalMealText.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        TotalMealText.setIconTextGap(0);
-        TotalMealText.setOpaque(true);
-        TotalMealText.setRequestFocusEnabled(false);
-        AmountPageDownPanelRhyme.add(TotalMealText);
-        TotalMealText.setBounds(120, 210, 70, 40);
-
-        LiabilitiesText.setBackground(new java.awt.Color(255, 255, 255));
-        LiabilitiesText.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
-        LiabilitiesText.setText("0");
-        LiabilitiesText.setToolTipText("");
-        LiabilitiesText.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        LiabilitiesText.setIconTextGap(0);
-        LiabilitiesText.setOpaque(true);
-        LiabilitiesText.setRequestFocusEnabled(false);
-        AmountPageDownPanelRhyme.add(LiabilitiesText);
-        LiabilitiesText.setBounds(150, 140, 100, 30);
-
-        SpendText.setBackground(new java.awt.Color(255, 255, 255));
-        SpendText.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
-        SpendText.setText("0");
-        SpendText.setToolTipText("");
-        SpendText.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        SpendText.setIconTextGap(0);
-        SpendText.setOpaque(true);
-        SpendText.setRequestFocusEnabled(false);
-        AmountPageDownPanelRhyme.add(SpendText);
-        SpendText.setBounds(150, 100, 100, 30);
-
-        Bazar.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
-        Bazar.setText("Bazar");
-        AmountPageDownPanelRhyme.add(Bazar);
-        Bazar.setBounds(340, 70, 50, 20);
-
-        BazarText.setBackground(new java.awt.Color(255, 255, 255));
-        BazarText.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
-        BazarText.setText("0");
-        BazarText.setToolTipText("");
-        BazarText.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        BazarText.setIconTextGap(0);
-        BazarText.setOpaque(true);
-        BazarText.setRequestFocusEnabled(false);
-        AmountPageDownPanelRhyme.add(BazarText);
-        BazarText.setBounds(440, 60, 100, 30);
-
-        BillText.setBackground(new java.awt.Color(255, 255, 255));
-        BillText.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
-        BillText.setText("0");
-        BillText.setToolTipText("");
-        BillText.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        BillText.setIconTextGap(0);
-        BillText.setOpaque(true);
-        BillText.setRequestFocusEnabled(false);
-        AmountPageDownPanelRhyme.add(BillText);
-        BillText.setBounds(440, 100, 100, 30);
-
-        Bill.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
-        Bill.setText("Bill");
-        AmountPageDownPanelRhyme.add(Bill);
-        Bill.setBounds(340, 110, 50, 20);
-
-        Receivable.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
-        Receivable.setText("Receivable");
-        AmountPageDownPanelRhyme.add(Receivable);
-        Receivable.setBounds(340, 150, 90, 20);
-
-        ReceivableText.setBackground(new java.awt.Color(255, 255, 255));
-        ReceivableText.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
-        ReceivableText.setText("0");
-        ReceivableText.setToolTipText("");
-        ReceivableText.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        ReceivableText.setIconTextGap(0);
-        ReceivableText.setOpaque(true);
-        ReceivableText.setRequestFocusEnabled(false);
-        AmountPageDownPanelRhyme.add(ReceivableText);
-        ReceivableText.setBounds(440, 140, 100, 30);
-
-        AmountPage.add(AmountPageDownPanelRhyme);
-        AmountPageDownPanelRhyme.setBounds(0, 180, 600, 320);
-
         getContentPane().add(AmountPage);
         AmountPage.setBounds(200, 0, 600, 500);
-
-        MainLeftPanel.setBackground(new java.awt.Color(43, 30, 72));
-        MainLeftPanel.setLayout(null);
-
-        MainLeftPanelUserIcon.setBackground(new java.awt.Color(255, 255, 255));
-        MainLeftPanelUserIcon.setIcon(IconScale("2703063-512.png"));
-        MainLeftPanel.add(MainLeftPanelUserIcon);
-        MainLeftPanelUserIcon.setBounds(40, 60, 27, 27);
-
-        MainLeftPanelMealIcon.setIcon(IconScale("meal.png"));
-        MainLeftPanel.add(MainLeftPanelMealIcon);
-        MainLeftPanelMealIcon.setBounds(40, 120, 27, 27);
-
-        MainLeftPanelBazarIcon.setIcon(IconScale("bazar.png"));
-        MainLeftPanel.add(MainLeftPanelBazarIcon);
-        MainLeftPanelBazarIcon.setBounds(40, 180, 27, 27);
-
-        MainLeftPanelBillIcon.setIcon(IconScale("bill.png"));
-        MainLeftPanel.add(MainLeftPanelBillIcon);
-        MainLeftPanelBillIcon.setBounds(40, 240, 27, 27);
-
-        MainLeftPanelAmountIcon.setIcon(IconScale("amount.png"));
-        MainLeftPanel.add(MainLeftPanelAmountIcon);
-        MainLeftPanelAmountIcon.setBounds(40, 300, 27, 27);
-
-        MainLeftPanelOptionIcon.setIcon(IconScale("option.png"));
-        MainLeftPanel.add(MainLeftPanelOptionIcon);
-        MainLeftPanelOptionIcon.setBounds(40, 360, 27, 27);
-
-        MainLeftPanelUserButton.setBackground(new java.awt.Color(43, 30, 72));
-        MainLeftPanelUserButton.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
-        MainLeftPanelUserButton.setForeground(new java.awt.Color(255, 255, 255));
-        MainLeftPanelUserButton.setText("User");
-        MainLeftPanelUserButton.setAlignmentY(1.0F);
-        MainLeftPanelUserButton.setBorder(null);
-        MainLeftPanelUserButton.setBorderPainted(false);
-        MainLeftPanelUserButton.setContentAreaFilled(false);
-        MainLeftPanelUserButton.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        MainLeftPanelUserButton.setFocusable(false);
-        MainLeftPanelUserButton.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        MainLeftPanelUserButton.setIconTextGap(0);
-        MainLeftPanelUserButton.setRequestFocusEnabled(false);
-        MainLeftPanelUserButton.setSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/img/Label.png"))); // NOI18N
-        MainLeftPanelUserButton.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
-        MainLeftPanelUserButton.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                MainLeftPanelUserButtonActionPerformed(evt);
-            }
-        });
-        MainLeftPanel.add(MainLeftPanelUserButton);
-        MainLeftPanelUserButton.setBounds(80, 60, 80, 30);
-
-        MainLeftPanelMealButton.setBackground(new java.awt.Color(43, 30, 72));
-        MainLeftPanelMealButton.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
-        MainLeftPanelMealButton.setForeground(new java.awt.Color(255, 255, 255));
-        MainLeftPanelMealButton.setText("Meal");
-        MainLeftPanelMealButton.setAlignmentY(1.0F);
-        MainLeftPanelMealButton.setBorder(null);
-        MainLeftPanelMealButton.setBorderPainted(false);
-        MainLeftPanelMealButton.setContentAreaFilled(false);
-        MainLeftPanelMealButton.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        MainLeftPanelMealButton.setFocusable(false);
-        MainLeftPanelMealButton.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        MainLeftPanelMealButton.setIconTextGap(0);
-        MainLeftPanelMealButton.setRequestFocusEnabled(false);
-        MainLeftPanelMealButton.setSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/img/Label.png"))); // NOI18N
-        MainLeftPanelMealButton.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
-        MainLeftPanelMealButton.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                MainLeftPanelMealButtonActionPerformed(evt);
-            }
-        });
-        MainLeftPanel.add(MainLeftPanelMealButton);
-        MainLeftPanelMealButton.setBounds(80, 120, 80, 30);
-
-        MainLeftPanelBazarButton.setBackground(new java.awt.Color(43, 30, 72));
-        MainLeftPanelBazarButton.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
-        MainLeftPanelBazarButton.setForeground(new java.awt.Color(255, 255, 255));
-        MainLeftPanelBazarButton.setText("Bazar");
-        MainLeftPanelBazarButton.setAlignmentY(1.0F);
-        MainLeftPanelBazarButton.setBorder(null);
-        MainLeftPanelBazarButton.setBorderPainted(false);
-        MainLeftPanelBazarButton.setContentAreaFilled(false);
-        MainLeftPanelBazarButton.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        MainLeftPanelBazarButton.setFocusable(false);
-        MainLeftPanelBazarButton.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        MainLeftPanelBazarButton.setIconTextGap(0);
-        MainLeftPanelBazarButton.setRequestFocusEnabled(false);
-        MainLeftPanelBazarButton.setSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/img/Label.png"))); // NOI18N
-        MainLeftPanelBazarButton.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
-        MainLeftPanelBazarButton.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                MainLeftPanelBazarButtonActionPerformed(evt);
-            }
-        });
-        MainLeftPanel.add(MainLeftPanelBazarButton);
-        MainLeftPanelBazarButton.setBounds(80, 180, 80, 30);
-
-        MainLeftPanelBillButton.setBackground(new java.awt.Color(43, 30, 72));
-        MainLeftPanelBillButton.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
-        MainLeftPanelBillButton.setForeground(new java.awt.Color(255, 255, 255));
-        MainLeftPanelBillButton.setText("Bill");
-        MainLeftPanelBillButton.setAlignmentY(1.0F);
-        MainLeftPanelBillButton.setBorder(null);
-        MainLeftPanelBillButton.setBorderPainted(false);
-        MainLeftPanelBillButton.setContentAreaFilled(false);
-        MainLeftPanelBillButton.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        MainLeftPanelBillButton.setFocusable(false);
-        MainLeftPanelBillButton.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        MainLeftPanelBillButton.setIconTextGap(0);
-        MainLeftPanelBillButton.setRequestFocusEnabled(false);
-        MainLeftPanelBillButton.setSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/img/Label.png"))); // NOI18N
-        MainLeftPanelBillButton.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
-        MainLeftPanelBillButton.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                MainLeftPanelBillButtonActionPerformed(evt);
-            }
-        });
-        MainLeftPanel.add(MainLeftPanelBillButton);
-        MainLeftPanelBillButton.setBounds(80, 240, 80, 30);
-
-        MainLeftPanelAmountButton.setBackground(new java.awt.Color(43, 30, 72));
-        MainLeftPanelAmountButton.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
-        MainLeftPanelAmountButton.setForeground(new java.awt.Color(255, 255, 255));
-        MainLeftPanelAmountButton.setText("Amount");
-        MainLeftPanelAmountButton.setAlignmentY(1.0F);
-        MainLeftPanelAmountButton.setBorder(null);
-        MainLeftPanelAmountButton.setBorderPainted(false);
-        MainLeftPanelAmountButton.setContentAreaFilled(false);
-        MainLeftPanelAmountButton.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        MainLeftPanelAmountButton.setFocusable(false);
-        MainLeftPanelAmountButton.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        MainLeftPanelAmountButton.setIconTextGap(0);
-        MainLeftPanelAmountButton.setRequestFocusEnabled(false);
-        MainLeftPanelAmountButton.setSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/img/Label.png"))); // NOI18N
-        MainLeftPanelAmountButton.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
-        MainLeftPanelAmountButton.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                MainLeftPanelAmountButtonActionPerformed(evt);
-            }
-        });
-        MainLeftPanel.add(MainLeftPanelAmountButton);
-        MainLeftPanelAmountButton.setBounds(80, 300, 80, 30);
-
-        MainLeftPanelOptionButton.setBackground(new java.awt.Color(43, 30, 72));
-        MainLeftPanelOptionButton.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
-        MainLeftPanelOptionButton.setForeground(new java.awt.Color(255, 255, 255));
-        MainLeftPanelOptionButton.setText("Option");
-        MainLeftPanelOptionButton.setAlignmentY(1.0F);
-        MainLeftPanelOptionButton.setBorder(null);
-        MainLeftPanelOptionButton.setBorderPainted(false);
-        MainLeftPanelOptionButton.setContentAreaFilled(false);
-        MainLeftPanelOptionButton.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        MainLeftPanelOptionButton.setFocusable(false);
-        MainLeftPanelOptionButton.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        MainLeftPanelOptionButton.setIconTextGap(0);
-        MainLeftPanelOptionButton.setRequestFocusEnabled(false);
-        MainLeftPanelOptionButton.setSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/img/Label.png"))); // NOI18N
-        MainLeftPanelOptionButton.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
-        MainLeftPanelOptionButton.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                MainLeftPanelOptionButtonActionPerformed(evt);
-            }
-        });
-        MainLeftPanel.add(MainLeftPanelOptionButton);
-        MainLeftPanelOptionButton.setBounds(80, 360, 80, 30);
-
-        getContentPane().add(MainLeftPanel);
-        MainLeftPanel.setBounds(0, 0, 200, 500);
-
-        UserPage.setBackground(new java.awt.Color(204, 204, 204));
-        UserPage.setAlignmentX(0.0F);
-        UserPage.setFocusable(false);
-        UserPage.setLayout(null);
-
-        UserPageUpPanel.setBackground(new java.awt.Color(67, 47, 125));
-        UserPageUpPanel.setLayout(null);
-
-        User.setBackground(new java.awt.Color(255, 255, 255));
-        User.setIcon(IconScale("2703063-512.png"));
-        UserPageUpPanel.add(User);
-        User.setBounds(80, 20, 27, 27);
-
-        User2.setBackground(new java.awt.Color(255, 255, 255));
-        User2.setIcon(IconScale("2703063-512.png"));
-        UserPageUpPanel.add(User2);
-        User2.setBounds(80, 70, 27, 27);
-
-        User3.setBackground(new java.awt.Color(255, 255, 255));
-        User3.setIcon(IconScale("2703063-512.png"));
-        UserPageUpPanel.add(User3);
-        User3.setBounds(350, 20, 27, 27);
-
-        User4.setBackground(new java.awt.Color(255, 255, 255));
-        User4.setIcon(IconScale("2703063-512.png"));
-        UserPageUpPanel.add(User4);
-        User4.setBounds(350, 70, 27, 27);
-
-        Ishtiaq.setBackground(new java.awt.Color(43, 30, 72));
-        Ishtiaq.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
-        Ishtiaq.setForeground(new java.awt.Color(255, 255, 255));
-        Ishtiaq.setText("Sayed Mohammed Ishtiaq");
-        Ishtiaq.setAlignmentY(1.0F);
-        Ishtiaq.setBorder(null);
-        Ishtiaq.setBorderPainted(false);
-        Ishtiaq.setContentAreaFilled(false);
-        Ishtiaq.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        Ishtiaq.setFocusable(false);
-        Ishtiaq.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        Ishtiaq.setIconTextGap(0);
-        Ishtiaq.setRequestFocusEnabled(false);
-        Ishtiaq.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
-        Ishtiaq.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                IshtiaqActionPerformed(evt);
-            }
-        });
-        UserPageUpPanel.add(Ishtiaq);
-        Ishtiaq.setBounds(120, 70, 200, 30);
-
-        Tasluf.setBackground(new java.awt.Color(43, 30, 72));
-        Tasluf.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
-        Tasluf.setForeground(new java.awt.Color(255, 255, 255));
-        Tasluf.setText("Md. Tasluf Morshed");
-        Tasluf.setAlignmentY(1.0F);
-        Tasluf.setBorder(null);
-        Tasluf.setBorderPainted(false);
-        Tasluf.setContentAreaFilled(false);
-        Tasluf.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        Tasluf.setFocusable(false);
-        Tasluf.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        Tasluf.setIconTextGap(0);
-        Tasluf.setRequestFocusEnabled(false);
-        Tasluf.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
-        Tasluf.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                TaslufActionPerformed(evt);
-            }
-        });
-        UserPageUpPanel.add(Tasluf);
-        Tasluf.setBounds(120, 20, 160, 30);
-
-        Tilok.setBackground(new java.awt.Color(43, 30, 72));
-        Tilok.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
-        Tilok.setForeground(new java.awt.Color(255, 255, 255));
-        Tilok.setAlignmentY(1.0F);
-        Tilok.setBorder(null);
-        Tilok.setBorderPainted(false);
-        Tilok.setContentAreaFilled(false);
-        Tilok.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        Tilok.setFocusable(false);
-        Tilok.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        Tilok.setIconTextGap(0);
-        Tilok.setLabel("Assadujjman Tilok");
-        Tilok.setRequestFocusEnabled(false);
-        Tilok.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
-        Tilok.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                TilokActionPerformed(evt);
-            }
-        });
-        UserPageUpPanel.add(Tilok);
-        Tilok.setBounds(390, 20, 160, 30);
-
-        Mosarof.setBackground(new java.awt.Color(43, 30, 72));
-        Mosarof.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
-        Mosarof.setForeground(new java.awt.Color(255, 255, 255));
-        Mosarof.setText("Md. Mosarof Korim");
-        Mosarof.setAlignmentY(1.0F);
-        Mosarof.setBorder(null);
-        Mosarof.setBorderPainted(false);
-        Mosarof.setContentAreaFilled(false);
-        Mosarof.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        Mosarof.setFocusable(false);
-        Mosarof.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        Mosarof.setIconTextGap(0);
-        Mosarof.setRequestFocusEnabled(false);
-        Mosarof.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
-        Mosarof.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                MosarofActionPerformed(evt);
-            }
-        });
-        UserPageUpPanel.add(Mosarof);
-        Mosarof.setBounds(390, 70, 160, 30);
-
-        UserPage.add(UserPageUpPanel);
-        UserPageUpPanel.setBounds(0, 60, 600, 120);
-
-        UserPageRhymePanel.setBackground(new java.awt.Color(204, 204, 204));
-        UserPageRhymePanel.setLayout(null);
-
-        Address.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
-        Address.setText("Address: Mushiganj, Dhaka ");
-        UserPageRhymePanel.add(Address);
-        Address.setBounds(280, 170, 210, 20);
-
-        Name.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
-        Name.setText("Name: Md. Tasuf Morshed ");
-        UserPageRhymePanel.add(Name);
-        Name.setBounds(280, 80, 210, 20);
-
-        Mobile.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
-        Mobile.setText("Mobile: 01956140407 ");
-        UserPageRhymePanel.add(Mobile);
-        Mobile.setBounds(280, 110, 210, 20);
-
-        Blood.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
-        Blood.setText("Blood: B+ ");
-        UserPageRhymePanel.add(Blood);
-        Blood.setBounds(280, 140, 210, 20);
-
-        UserPage.add(UserPageRhymePanel);
-        UserPageRhymePanel.setBounds(0, 180, 600, 320);
-
-        UserPageTilokPanel.setBackground(new java.awt.Color(204, 204, 204));
-        UserPageTilokPanel.setLayout(null);
-
-        Address1.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
-        Address1.setText("Address: Mushiganj, Dhaka ");
-        UserPageTilokPanel.add(Address1);
-        Address1.setBounds(280, 170, 210, 20);
-
-        Name1.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
-        Name1.setText("Name: Assadujjaman Tilok");
-        UserPageTilokPanel.add(Name1);
-        Name1.setBounds(280, 80, 210, 20);
-
-        Mobile1.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
-        Mobile1.setText("Mobile: 01956140407 ");
-        UserPageTilokPanel.add(Mobile1);
-        Mobile1.setBounds(280, 110, 210, 20);
-
-        Blood1.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
-        Blood1.setText("Blood: B+ ");
-        UserPageTilokPanel.add(Blood1);
-        Blood1.setBounds(280, 140, 210, 20);
-
-        UserPage.add(UserPageTilokPanel);
-        UserPageTilokPanel.setBounds(0, 180, 600, 320);
-
-        UserPageIshtiaqPanel.setBackground(new java.awt.Color(204, 204, 204));
-        UserPageIshtiaqPanel.setLayout(null);
-
-        Address2.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
-        Address2.setText("Address: Sankor, Dhaka ");
-        UserPageIshtiaqPanel.add(Address2);
-        Address2.setBounds(280, 170, 210, 20);
-
-        Name2.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
-        Name2.setText("Name: Sayed Mohammed Ishtiaq ");
-        UserPageIshtiaqPanel.add(Name2);
-        Name2.setBounds(280, 80, 260, 20);
-
-        Mobile2.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
-        Mobile2.setText("Mobile: 01945452133");
-        UserPageIshtiaqPanel.add(Mobile2);
-        Mobile2.setBounds(280, 110, 210, 20);
-
-        Blood2.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
-        Blood2.setText("Blood: A+ ");
-        UserPageIshtiaqPanel.add(Blood2);
-        Blood2.setBounds(280, 140, 210, 20);
-
-        UserPage.add(UserPageIshtiaqPanel);
-        UserPageIshtiaqPanel.setBounds(0, 180, 600, 320);
-
-        UserPageMosarofPanel.setBackground(new java.awt.Color(204, 204, 204));
-        UserPageMosarofPanel.setLayout(null);
-
-        Address3.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
-        Address3.setText("Address: Mirpur, Dhaka ");
-        UserPageMosarofPanel.add(Address3);
-        Address3.setBounds(280, 170, 210, 20);
-
-        Name3.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
-        Name3.setText("Name: Md. Mosarof Korim");
-        UserPageMosarofPanel.add(Name3);
-        Name3.setBounds(280, 80, 210, 20);
-
-        Mobile3.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
-        Mobile3.setText("Mobile: 0198554231");
-        UserPageMosarofPanel.add(Mobile3);
-        Mobile3.setBounds(280, 110, 210, 20);
-
-        Blood3.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
-        Blood3.setText("Blood: B+ ");
-        UserPageMosarofPanel.add(Blood3);
-        Blood3.setBounds(280, 140, 210, 20);
-
-        UserPage.add(UserPageMosarofPanel);
-        UserPageMosarofPanel.setBounds(0, 180, 600, 320);
-
-        getContentPane().add(UserPage);
-        UserPage.setBounds(200, 0, 600, 500);
 
         MealPage.setBackground(new java.awt.Color(204, 204, 204));
         MealPage.setLayout(null);
@@ -1538,282 +1810,104 @@ public class pages extends javax.swing.JFrame {
         getContentPane().add(MealPage);
         MealPage.setBounds(0, 0, 800, 500);
 
-        BazarPage.setBackground(new java.awt.Color(204, 204, 204));
-        BazarPage.setEnabled(false);
-        BazarPage.setLayout(null);
-
-        BazarPanelUpPanel1.setBackground(new java.awt.Color(29, 50, 89));
-        BazarPanelUpPanel1.setEnabled(false);
-        BazarPanelUpPanel1.setLayout(null);
-
-        BazarPageName1.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
-        BazarPageName1.setForeground(new java.awt.Color(255, 255, 255));
-        BazarPageName1.setText("Name");
-        BazarPanelUpPanel1.add(BazarPageName1);
-        BazarPageName1.setBounds(60, 30, 50, 20);
-
-        BazarPageDate1.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
-        BazarPageDate1.setForeground(new java.awt.Color(255, 255, 255));
-        BazarPageDate1.setText("Date");
-        BazarPanelUpPanel1.add(BazarPageDate1);
-        BazarPageDate1.setBounds(370, 30, 50, 20);
-
-        BazarPageDateField1.setFont(new java.awt.Font("Calibri", 0, 16)); // NOI18N
-        BazarPanelUpPanel1.add(BazarPageDateField1);
-        BazarPageDateField1.setBounds(420, 26, 130, 30);
-
-        BazarPageNameComboBox1.setEditable(true);
-        BazarPageNameComboBox1.setFont(new java.awt.Font("Calibri", 0, 14)); // NOI18N
-        BazarPageNameComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(name));
-        BazarPageNameComboBox1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        BazarPageNameComboBox1.setFocusable(false);
-        BazarPageNameComboBox1.setKeySelectionManager(null);
-        BazarPageNameComboBox1.setLightWeightPopupEnabled(false);
-        BazarPageNameComboBox1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                BazarPageNameComboBox1ActionPerformed(evt);
-            }
-        });
-        BazarPanelUpPanel1.add(BazarPageNameComboBox1);
-        BazarPageNameComboBox1.setBounds(120, 26, 190, 30);
-
-        BazarPageEditButton1.setBackground(new java.awt.Color(29, 50, 89));
-        BazarPageEditButton1.setFont(new java.awt.Font("Calibri", 0, 16)); // NOI18N
-        BazarPageEditButton1.setForeground(new java.awt.Color(255, 255, 255));
-        BazarPageEditButton1.setText("Delete");
-        BazarPageEditButton1.setActionCommand("");
-        BazarPageEditButton1.setBorder(null);
-        BazarPageEditButton1.setBorderPainted(false);
-        BazarPageEditButton1.setFocusPainted(false);
-        BazarPageEditButton1.setFocusTraversalPolicyProvider(true);
-        BazarPageEditButton1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        BazarPageEditButton1.setIconTextGap(0);
-        BazarPageEditButton1.setMargin(new java.awt.Insets(2, 2, 2, 2));
-        BazarPageEditButton1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                BazarPageEditButton1ActionPerformed(evt);
-            }
-        });
-        BazarPanelUpPanel1.add(BazarPageEditButton1);
-        BazarPageEditButton1.setBounds(320, 130, 100, 30);
-
-        BazarPageSubmitButton1.setBackground(new java.awt.Color(29, 50, 89));
-        BazarPageSubmitButton1.setFont(new java.awt.Font("Calibri", 0, 16)); // NOI18N
-        BazarPageSubmitButton1.setForeground(new java.awt.Color(255, 255, 255));
-        BazarPageSubmitButton1.setText("Sumit");
-        BazarPageSubmitButton1.setActionCommand("");
-        BazarPageSubmitButton1.setBorder(null);
-        BazarPageSubmitButton1.setBorderPainted(false);
-        BazarPageSubmitButton1.setFocusPainted(false);
-        BazarPageSubmitButton1.setFocusable(false);
-        BazarPageSubmitButton1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        BazarPageSubmitButton1.setIconTextGap(0);
-        BazarPageSubmitButton1.setMargin(new java.awt.Insets(2, 2, 2, 2));
-        BazarPageSubmitButton1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                BazarPageSubmitButton1ActionPerformed(evt);
-            }
-        });
-        BazarPanelUpPanel1.add(BazarPageSubmitButton1);
-        BazarPageSubmitButton1.setBounds(170, 130, 100, 30);
-
-        BazarPageAmount.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
-        BazarPageAmount.setForeground(new java.awt.Color(255, 255, 255));
-        BazarPageAmount.setText("Amount");
-        BazarPanelUpPanel1.add(BazarPageAmount);
-        BazarPageAmount.setBounds(350, 90, 60, 20);
-
-        BazarPageAmountField.setFont(new java.awt.Font("Calibri", 0, 16)); // NOI18N
-        BazarPageAmountField.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                BazarPageAmountFieldActionPerformed(evt);
-            }
-        });
-        BazarPanelUpPanel1.add(BazarPageAmountField);
-        BazarPageAmountField.setBounds(420, 80, 130, 30);
-
-        BazarPageItem.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
-        BazarPageItem.setForeground(new java.awt.Color(255, 255, 255));
-        BazarPageItem.setText("Item");
-        BazarPanelUpPanel1.add(BazarPageItem);
-        BazarPageItem.setBounds(60, 90, 60, 20);
-
-        BazarPageItemField.setFont(new java.awt.Font("Calibri", 0, 16)); // NOI18N
-        BazarPageItemField.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                BazarPageItemFieldActionPerformed(evt);
-            }
-        });
-        BazarPanelUpPanel1.add(BazarPageItemField);
-        BazarPageItemField.setBounds(120, 80, 190, 30);
-
-        BazarPage.add(BazarPanelUpPanel1);
-        BazarPanelUpPanel1.setBounds(200, 60, 600, 170);
-
-        BazarDownPanel1.setBackground(new java.awt.Color(204, 204, 204));
-        BazarDownPanel1.setLayout(null);
-
-        jTable2.setAutoCreateRowSorter(true);
-        jTable2.setFont(new java.awt.Font("Calibri", 0, 14)); // NOI18N
-        jTable2.setModel(modelforBazar);
-        jTable2.setFocusable(false);
-        jTable2.setIntercellSpacing(new java.awt.Dimension(0, 0));
-        jTable2.setOpaque(false);
-        jTable2.setRowHeight(25);
-        jTable2.setSelectionBackground(new java.awt.Color(232, 57, 95));
-        jTable2.setSelectionMode(javax.swing.ListSelectionModel.SINGLE_SELECTION);
-        jTable2.setShowGrid(false);
-        jScrollPane2.setViewportView(jTable2);
-
-        BazarDownPanel1.add(jScrollPane2);
-        jScrollPane2.setBounds(20, 60, 550, 160);
-
-        BazarPage.add(BazarDownPanel1);
-        BazarDownPanel1.setBounds(200, 210, 600, 290);
-
-        getContentPane().add(BazarPage);
-        BazarPage.setBounds(0, 0, 800, 500);
-
-        BillPage.setBackground(new java.awt.Color(204, 204, 204));
-        BillPage.setEnabled(false);
-        BillPage.setLayout(null);
-
-        BillPanelUpPanel2.setBackground(new java.awt.Color(25, 63, 97));
-        BillPanelUpPanel2.setEnabled(false);
-        BillPanelUpPanel2.setLayout(null);
-
-        BillPageName2.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
-        BillPageName2.setForeground(new java.awt.Color(255, 255, 255));
-        BillPageName2.setText("Name");
-        BillPanelUpPanel2.add(BillPageName2);
-        BillPageName2.setBounds(60, 30, 50, 20);
-
-        BillPageDate2.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
-        BillPageDate2.setForeground(new java.awt.Color(255, 255, 255));
-        BillPageDate2.setText("Date");
-        BillPanelUpPanel2.add(BillPageDate2);
-        BillPageDate2.setBounds(370, 30, 50, 20);
-
-        BillPageDateField2.setFont(new java.awt.Font("Calibri", 0, 16)); // NOI18N
-        BillPanelUpPanel2.add(BillPageDateField2);
-        BillPageDateField2.setBounds(420, 26, 130, 30);
-
-        BillPageNameComboBox2.setEditable(true);
-        BillPageNameComboBox2.setFont(new java.awt.Font("Calibri", 0, 14)); // NOI18N
-        BillPageNameComboBox2.setModel(new javax.swing.DefaultComboBoxModel<>(name));
-        BillPageNameComboBox2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        BillPageNameComboBox2.setFocusable(false);
-        BillPageNameComboBox2.setKeySelectionManager(null);
-        BillPageNameComboBox2.setLightWeightPopupEnabled(false);
-        BillPageNameComboBox2.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                BillPageNameComboBox2ActionPerformed(evt);
-            }
-        });
-        BillPanelUpPanel2.add(BillPageNameComboBox2);
-        BillPageNameComboBox2.setBounds(120, 26, 190, 30);
-
-        BillPageEditButton2.setBackground(new java.awt.Color(25, 63, 97));
-        BillPageEditButton2.setFont(new java.awt.Font("Calibri", 0, 16)); // NOI18N
-        BillPageEditButton2.setForeground(new java.awt.Color(255, 255, 255));
-        BillPageEditButton2.setText("Delete");
-        BillPageEditButton2.setActionCommand("");
-        BillPageEditButton2.setBorder(null);
-        BillPageEditButton2.setBorderPainted(false);
-        BillPageEditButton2.setFocusPainted(false);
-        BillPageEditButton2.setFocusTraversalPolicyProvider(true);
-        BillPageEditButton2.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        BillPageEditButton2.setIconTextGap(0);
-        BillPageEditButton2.setMargin(new java.awt.Insets(2, 2, 2, 2));
-        BillPageEditButton2.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                BillPageEditButton2ActionPerformed(evt);
-            }
-        });
-        BillPanelUpPanel2.add(BillPageEditButton2);
-        BillPageEditButton2.setBounds(320, 130, 100, 30);
-
-        BillPageSubmitButton2.setBackground(new java.awt.Color(25, 63, 97));
-        BillPageSubmitButton2.setFont(new java.awt.Font("Calibri", 0, 16)); // NOI18N
-        BillPageSubmitButton2.setForeground(new java.awt.Color(255, 255, 255));
-        BillPageSubmitButton2.setText("Sumit");
-        BillPageSubmitButton2.setActionCommand("");
-        BillPageSubmitButton2.setBorder(null);
-        BillPageSubmitButton2.setBorderPainted(false);
-        BillPageSubmitButton2.setFocusPainted(false);
-        BillPageSubmitButton2.setFocusable(false);
-        BillPageSubmitButton2.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        BillPageSubmitButton2.setIconTextGap(0);
-        BillPageSubmitButton2.setMargin(new java.awt.Insets(2, 2, 2, 2));
-        BillPageSubmitButton2.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                BillPageSubmitButton2ActionPerformed(evt);
-            }
-        });
-        BillPanelUpPanel2.add(BillPageSubmitButton2);
-        BillPageSubmitButton2.setBounds(170, 130, 100, 30);
-
-        BillPageAmount1.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
-        BillPageAmount1.setForeground(new java.awt.Color(255, 255, 255));
-        BillPageAmount1.setText("Amount");
-        BillPanelUpPanel2.add(BillPageAmount1);
-        BillPageAmount1.setBounds(350, 90, 60, 20);
-
-        BillPageAmountField1.setFont(new java.awt.Font("Calibri", 0, 16)); // NOI18N
-        BillPageAmountField1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                BillPageAmountField1ActionPerformed(evt);
-            }
-        });
-        BillPanelUpPanel2.add(BillPageAmountField1);
-        BillPageAmountField1.setBounds(420, 80, 130, 30);
-
-        BillPageItem1.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
-        BillPageItem1.setForeground(new java.awt.Color(255, 255, 255));
-        BillPageItem1.setText("Bill");
-        BillPanelUpPanel2.add(BillPageItem1);
-        BillPageItem1.setBounds(60, 90, 60, 20);
-
-        BillPageItemField1.setFont(new java.awt.Font("Calibri", 0, 16)); // NOI18N
-        BillPageItemField1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                BillPageItemField1ActionPerformed(evt);
-            }
-        });
-        BillPanelUpPanel2.add(BillPageItemField1);
-        BillPageItemField1.setBounds(120, 80, 190, 30);
-
-        BillPage.add(BillPanelUpPanel2);
-        BillPanelUpPanel2.setBounds(200, 60, 600, 170);
-
-        BillDownPanel2.setBackground(new java.awt.Color(204, 204, 204));
-        BillDownPanel2.setLayout(null);
-
-        jTable3.setAutoCreateRowSorter(true);
-        jTable3.setFont(new java.awt.Font("Calibri", 0, 14)); // NOI18N
-        jTable3.setModel(modelforBill);
-        jTable3.setFocusable(false);
-        jTable3.setIntercellSpacing(new java.awt.Dimension(0, 0));
-        jTable3.setOpaque(false);
-        jTable3.setRowHeight(25);
-        jTable3.setSelectionBackground(new java.awt.Color(232, 57, 95));
-        jTable3.setSelectionMode(javax.swing.ListSelectionModel.SINGLE_SELECTION);
-        jTable3.setShowGrid(false);
-        jScrollPane3.setViewportView(jTable3);
-
-        BillDownPanel2.add(jScrollPane3);
-        jScrollPane3.setBounds(20, 60, 550, 160);
-
-        BillPage.add(BillDownPanel2);
-        BillDownPanel2.setBounds(200, 210, 600, 290);
-
-        getContentPane().add(BillPage);
-        BillPage.setBounds(0, 0, 800, 500);
-
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
     private void MainLeftPanelOptionButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_MainLeftPanelOptionButtonActionPerformed
+        //Meal page all data erise
+        int numberOfRow = this.jTable1.getRowCount();
+        numberOfRow--;
+        while(numberOfRow >= 0)
+        {
+            model.removeRow(numberOfRow);
+            numberOfRow--;
+        }
+        this.MealPageBreakFast.setSelected(false);
+        this.MealPageLunch.setSelected(false);
+        this.MealPageDinner.setSelected(false);
+        this.MealPageDateField.setText(null);
+        
+        //Bazar page all data eris
+        numberOfRow = this.jTable2.getRowCount();
+        numberOfRow--;
+        while(numberOfRow >= 0)
+        {
+            modelforBazar.removeRow(numberOfRow);
+            numberOfRow--;
+        }
+        this.BazarPageDateField1.setText(null);
+        this.BazarPageItemField.setText(null);
+        this.BazarPageAmountField.setText(null);
+        
+        
+        //Bill page all data eris
+        numberOfRow = this.jTable3.getRowCount();
+        numberOfRow--;
+        while(numberOfRow >= 0)
+        {
+            modelforBill.removeRow(numberOfRow);
+            numberOfRow--;
+        }
+        this.BillPageDateField2.setText(null);
+        this.BillPageAmountField1.setText(null);
+        this.BillPageItemField1.setText(null);
+        
+        
+        ////Amount page all data eris
+        this.MealText.setText("0");
+        this.MealText1.setText("0");
+        this.MealText2.setText("0");
+        this.MealText3.setText("0");
+        
+        this.BazarText.setText("0");
+        this.BazarText1.setText("0");
+        this.BazarText2.setText("0");
+        this.BazarText3.setText("0");
+        
+        this.BillText.setText("0");
+        this.BillText1.setText("0");
+        this.BillText2.setText("0");
+        this.BillText3.setText("0");
+        
+        this.SpendText.setText("0");
+        this.SpendText1.setText("0");
+        this.SpendText2.setText("0");
+        this.SpendText3.setText("0");
+        
+        this.LiabilitiesText.setText("0");
+        this.LiabilitiesText1.setText("0");
+        this.LiabilitiesText3.setText("0");
+        this.LiabilitiesText3.setText("0");
+        
+        this.ReceivableText.setText("0");
+        this.ReceivableText1.setText("0");
+        this.ReceivableText2.setText("0");
+        this.ReceivableText3.setText("0");
+        
+        this.TotalMealText.setText("0");
+        this.TotalMealText1.setText("0");
+        this.TotalMealText2.setText("0");
+        this.TotalMealText3.setText("0");
+        
+        this.TotalBazarText.setText("0");
+        this.TotalBazarText1.setText("0");
+        this.TotalBazarText2.setText("0");
+        this.TotalBazarText3.setText("0");
+        
+        this.TotalBillText.setText("0");
+        this.TotalBillText1.setText("0");
+        this.TotalBillText2.setText("0");
+        this.TotalBillText3.setText("0");
+        
+        //Reset all the variabel
+        rhymeTotalMeal = 0;tilokTotalMeal = 0;ishtiaqTotalMeal = 0;mosarofTotalMeal = 0;
+        rhymeTotalBazar = 0;tilokTotalBazar = 0;ishtiaqTotalBazar = 0;mosarofTotalBazar = 0;
+        rhymeTotalBill = 0;tilokTotalBill = 0;ishtiaqTotalBill = 0;mosarofTotalBill = 0;
+        rhymeTotalSpend = 0;tilokTotalSpend = 0;ishtiaqTotalSpend = 0;mosarofTotalSpend = 0;
+    
+        rhymeLiablitiesD = 0;tilokLiablitiesD = 0;ishtiaqLiablitiesD = 0;mosarofLiablitiesD = 0;
+        rhymeReceivableD = 0;tilokReceivableD = 0;ishtiaqReceivableD = 0;mosarofReceivableD = 0;
+    
     }//GEN-LAST:event_MainLeftPanelOptionButtonActionPerformed
 
     private void MainLeftPanelMealButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_MainLeftPanelMealButtonActionPerformed
@@ -2077,7 +2171,7 @@ public class pages extends javax.swing.JFrame {
                     rhymeTotalBazar = rhymeTotalBazar + Integer.parseInt(this.BazarPageAmountField.getText());
                 }catch(Exception e){
                     System.out.println(e);
-                    JOptionPane.showMessageDialog(null,"You have enter wrong Amount. Please enter a number only");
+                    JOptionPane.showMessageDialog(null,"You have enter wrong Amount or does not enter any amount. Please enter a number only");
                 }
 
                 this.BazarText.setText(Integer.toString(rhymeTotalBazar));
@@ -2089,7 +2183,7 @@ public class pages extends javax.swing.JFrame {
                     tilokTotalBazar = tilokTotalBazar + Integer.parseInt(this.BazarPageAmountField.getText());
                 }catch(Exception e){
                     System.out.println(e);
-                    JOptionPane.showMessageDialog(null,"You have enter wrong Amount. Please enter a number only");
+                    JOptionPane.showMessageDialog(null,"You have enter wrong Amount or does not enter any amount. Please enter a number only");
                 }
                 
                 
@@ -2102,7 +2196,7 @@ public class pages extends javax.swing.JFrame {
                     ishtiaqTotalBazar = ishtiaqTotalBazar + Integer.parseInt(this.BazarPageAmountField.getText());
                 }catch(Exception e){
                     System.out.println(e);
-                    JOptionPane.showMessageDialog(null,"You have enter wrong Amount. Please enter a number only");
+                    JOptionPane.showMessageDialog(null,"You have enter wrong Amount or does not enter any amount. Please enter a number only");
                 }
                 
                 
@@ -2115,7 +2209,7 @@ public class pages extends javax.swing.JFrame {
                     mosarofTotalBazar = mosarofTotalBazar + Integer.parseInt(this.BazarPageAmountField.getText());
                 }catch(Exception e){
                     System.out.println(e);
-                    JOptionPane.showMessageDialog(null,"You have enter wrong Amount. Please enter a number only");
+                    JOptionPane.showMessageDialog(null,"You have enter wrong Amount or does not enter any amount. Please enter a number only");
                 }
                 
                 
@@ -2168,7 +2262,7 @@ public class pages extends javax.swing.JFrame {
                     rhymeTotalBill = rhymeTotalBill + Integer.parseInt(this.BillPageAmountField1.getText());
                 }catch(Exception e){
                     System.out.println(e);
-                    JOptionPane.showMessageDialog(null,"You have enter wrong Amount. Please enter a number only");
+                    JOptionPane.showMessageDialog(null,"You have enter wrong Amount or does not enter any amount. Please enter a number only");
                 }
                 
                 this.BillText.setText(Integer.toString(rhymeTotalBill));
@@ -2180,7 +2274,7 @@ public class pages extends javax.swing.JFrame {
                     tilokTotalBill = tilokTotalBill + Integer.parseInt(this.BillPageAmountField1.getText());
                 }catch(Exception e){
                     System.out.println(e);
-                    JOptionPane.showMessageDialog(null,"You have enter wrong Amount. Please enter a number only");
+                    JOptionPane.showMessageDialog(null,"You have enter wrong Amount or does not enter any amount. Please enter a number only");
                 }
                 
                 
@@ -2193,7 +2287,7 @@ public class pages extends javax.swing.JFrame {
                     ishtiaqTotalBill = ishtiaqTotalBill + Integer.parseInt(this.BillPageAmountField1.getText());
                 }catch(Exception e){
                     System.out.println(e);
-                    JOptionPane.showMessageDialog(null,"You have enter wrong Amount. Please enter a number only");
+                    JOptionPane.showMessageDialog(null,"You have enter wrong Amount or does not enter any amount. Please enter a number only");
                 }
                 
                 
@@ -2207,7 +2301,7 @@ public class pages extends javax.swing.JFrame {
                     mosarofTotalBill = mosarofTotalBill + Integer.parseInt(this.BillPageAmountField1.getText());
                 }catch(Exception e){
                     System.out.println(e);
-                    JOptionPane.showMessageDialog(null,"You have enter wrong Amount. Please enter a number only");
+                    JOptionPane.showMessageDialog(null,"You have enter wrong Amount or does not enter any amount. Please enter a number only");
                 }
                 
                 
