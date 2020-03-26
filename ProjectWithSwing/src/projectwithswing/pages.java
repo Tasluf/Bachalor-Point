@@ -27,7 +27,7 @@ public class pages extends javax.swing.JFrame {
     public String[] row = new String[6]; 
     public String[] rowForBazar = new String[4]; 
     public String[] rowForBill = new String[4]; 
-    public String[] name = {"Md Tasluf Morsehed","Assadijjaman Tilok","Sayed Mohammed Ishtiaq","Md. Mosarof Korim","Relatives"};
+    public String[] name = {"Md Tasluf Morsehed","Assadijjaman Tilok","Sayed Mohammed Ishtiaq","Md. Mosarof Korim"};
     
     
     public int rhymeTotalMeal = 0,tilokTotalMeal = 0,ishtiaqTotalMeal = 0,mosarofTotalMeal = 0;
@@ -1876,57 +1876,62 @@ public class pages extends javax.swing.JFrame {
         this.SpendText2.setText(Integer.toString(ishtiaqTotalSpend));
         this.SpendText3.setText(Integer.toString(mosarofTotalSpend));
         
-        int TotalCost = Integer.parseInt(this.TotalBazarText.getText()) + Integer.parseInt(this.TotalBillText.getText());
-        double IndividialCost = TotalCost/4.0;
+        double preMealCost = Integer.parseInt(this.TotalBazarText.getText()) / (Integer.parseInt(this.TotalMealText.getText()) * 1.0);
+        double IndividialBillCost = Integer.parseInt(this.TotalBillText.getText())/4.0;
         
-        if((IndividialCost - rhymeTotalSpend) >= 0)
+        double IndividialCostRhyme = (Integer.parseInt(this.MealText.getText()) * preMealCost) +IndividialBillCost;
+        double IndividialCostTilok = (Integer.parseInt(this.MealText1.getText()) * preMealCost) +IndividialBillCost;
+        double IndividialCostIshtiaq = (Integer.parseInt(this.MealText2.getText()) * preMealCost) +IndividialBillCost;
+        double IndividialCostMosarof = (Integer.parseInt(this.MealText3.getText()) * preMealCost) +IndividialBillCost;
+       
+        if((IndividialCostRhyme - rhymeTotalSpend) >= 0)
         {
-            double rhymeLiablitiesD = IndividialCost - rhymeTotalSpend;
+            double rhymeLiablitiesD = IndividialCostRhyme - rhymeTotalSpend;
             this.LiabilitiesText.setText(Double.toString(rhymeLiablitiesD));
             this.ReceivableText.setText("0");
         }
-        else if((IndividialCost - rhymeTotalSpend) <= 0)
+        else if((IndividialCostRhyme - rhymeTotalSpend) <= 0)
         {
-            double rhymeReceivableD = rhymeTotalSpend - IndividialCost;
+            double rhymeReceivableD = rhymeTotalSpend - IndividialCostRhyme;
             this.ReceivableText.setText(Double.toString(rhymeReceivableD));
             this.LiabilitiesText.setText("0");
         }
         
-        if((IndividialCost - tilokTotalSpend) >= 0)
+        if((IndividialCostTilok - tilokTotalSpend) >= 0)
         {
-            double tilokLiablitiesD = IndividialCost - tilokTotalSpend;
+            double tilokLiablitiesD = IndividialCostTilok - tilokTotalSpend;
             this.LiabilitiesText1.setText(Double.toString(tilokLiablitiesD));
             this.ReceivableText1.setText("0");
         }
-        else if((IndividialCost - tilokTotalSpend) <= 0)
+        else if((IndividialCostTilok - tilokTotalSpend) <= 0)
         {
-            double tilokLiablitiesD = tilokTotalSpend - IndividialCost;
+            double tilokLiablitiesD = tilokTotalSpend - IndividialCostTilok;
             this.ReceivableText1.setText(Double.toString(tilokLiablitiesD));
             this.LiabilitiesText1.setText("0");
         }
         
-        if((IndividialCost - ishtiaqTotalSpend) >= 0)
+        if((IndividialCostIshtiaq - ishtiaqTotalSpend) >= 0)
         {
-            double ishtiaqLiablitiesD = IndividialCost - ishtiaqTotalSpend;
+            double ishtiaqLiablitiesD = IndividialCostIshtiaq - ishtiaqTotalSpend;
             this.LiabilitiesText2.setText(Double.toString(ishtiaqLiablitiesD));
             this.ReceivableText2.setText("0");
         }
-        else if((IndividialCost - ishtiaqTotalSpend) <= 0)
+        else if((IndividialCostIshtiaq - ishtiaqTotalSpend) <= 0)
         {
-            double ishtiaqLiablitiesD = ishtiaqTotalSpend - IndividialCost;
+            double ishtiaqLiablitiesD = ishtiaqTotalSpend - IndividialCostIshtiaq;
             this.ReceivableText2.setText(Double.toString(ishtiaqLiablitiesD));
             this.LiabilitiesText2.setText("0");
         }
         
-        if((IndividialCost - mosarofTotalSpend) >= 0)
+        if((IndividialCostMosarof - mosarofTotalSpend) >= 0)
         {
-            double mosarofLiablitiesD = IndividialCost - mosarofTotalSpend;
+            double mosarofLiablitiesD = IndividialCostMosarof - mosarofTotalSpend;
             this.LiabilitiesText3.setText(Double.toString(mosarofLiablitiesD));
             this.ReceivableText3.setText("0");
         }
-        else if((IndividialCost - mosarofTotalSpend) <= 0)
+        else if((IndividialCostMosarof - mosarofTotalSpend) <= 0)
         {
-            double mosarofLiablitiesD = mosarofTotalSpend - IndividialCost;
+            double mosarofLiablitiesD = mosarofTotalSpend - IndividialCostMosarof;
             this.ReceivableText3.setText(Double.toString(mosarofLiablitiesD));
             this.LiabilitiesText3.setText("0");
         }
